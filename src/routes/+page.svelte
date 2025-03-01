@@ -701,6 +701,12 @@
 		}
 	}
 
+    @media (max-width: 1024px) {
+		.hero-container {
+			padding-bottom: 200px;
+		}
+	}
+
 	@media (max-width: 500px) {
 		.mobile-image {
 			width: 225px;
