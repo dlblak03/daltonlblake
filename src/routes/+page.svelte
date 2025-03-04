@@ -220,11 +220,12 @@
 			</li>
 			<li>
 				{#if $language == 'EN'}
-					Facilitated enterprise contract acquisition by strengthening the B2B relationship with
-					Oasis Technologies Group LLC through innovative UI/UX design and application development.
+					Facilitated enterprise contract acquisition by strengthening the B2B relationship with a
+					nationally recognized client through innovative UI/UX design and application development.
 				{:else if $language == 'DE'}
 					Erleichterte die Akquisition von Unternehmensverträgen durch Stärkung der B2B-Beziehung
-					mit Oasis Technologies Group LLC durch innovatives UI/UX-Design und Anwendungsentwicklung.
+					mit einem national anerkannten Kunden durch innovatives UI/UX-Design und
+					Anwendungsentwicklung.
 				{/if}
 			</li>
 			<li>
@@ -234,6 +235,16 @@
 				{:else if $language == 'DE'}
 					Entwicklung eines Dashboards im Kanban-Stil mit dynamischen Workflows, das die Effizienz
 					der Datenverwaltung für Agenturen optimiert.
+				{/if}
+			</li>
+			<li>
+				{#if $language == 'EN'}
+					Developed a column behavior tracker to monitor and analyze individual behaviors,
+					identifying patterns and trends to support data-driven decision-making.
+				{:else if $language == 'DE'}
+					Entwicklung eines Verhaltenstrackers für Spalten zur Überwachung und Analyse des
+					individuellen Verhaltens, Identifizierung von Mustern und Trends zur Unterstützung einer
+					datengestützten Entscheidungsfindung.
 				{/if}
 			</li>
 			<li>
