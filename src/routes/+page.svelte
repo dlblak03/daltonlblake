@@ -245,6 +245,17 @@
 					Kunden durch strategisches Design und Entwicklung.
 				{/if}
 			</li>
+			<li>
+				{#if $language == 'EN'}
+					Built a monday.com workspace template to track and manage invoices, contracts, work items,
+					contractors, work orders, timesheet items, and projects, ensuring all elements were
+					interconnected for greater efficiency.
+				{:else if $language == 'DE'}
+					Erstellung einer monday.com-Arbeitsplatzvorlage zur Verfolgung und Verwaltung von
+					Rechnungen, Verträgen, Arbeitsaufgaben, Arbeitsaufträgen, Zeiterfassungselementen und
+					Projekten, wobei alle Elemente miteinander verbunden sind, um die Effizienz zu steigern.
+				{/if}
+			</li>
 		</ul>
 	</div>
 
