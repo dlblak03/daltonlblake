@@ -122,11 +122,11 @@
 		</div>
 		<p class="description" style="color: {$dark ? 'var(--darktext)' : 'black'}">
 			{#if $language == 'EN'}
-				Heyo, I’m Dalton, aspiring software engineer dedicated to building clean, intuitive
+				Heyo, I’m Dalton, aspiring software engineer dedicated to building modern, intuitive
 				applications.
 			{:else if $language == 'DE'}
-				Hallo, ich bin Dalton, ein aufstrebender Software-Ingenieur, der sich darauf moderner,
-				intuitive Anwendungen zu entwickeln.
+				Hallo, ich bin Dalton, ein angehender Softwareingenieur, der sich der Entwicklung moderner,
+				intuitiver Anwendungen widmet.
 			{/if}
 		</p>
 	</div>
@@ -355,7 +355,7 @@
 					{#if $language == 'EN'}
 						Software Developer Intern
 					{:else if $language == 'DE'}
-						Software-Entwickler Praktikum
+						Software-Entwickler Praktikant
 					{/if}
 				</h3>
 				<p class="company">ahatis · San Ramon, CA (Remote)</p>
@@ -370,8 +370,8 @@
 					Observed and learned how to rebase an application between AWS accounts under the guidance
 					of an AWS Solutions Architect.
 				{:else if $language == 'DE'}
-					Beobachtet und gelernt, wie man eine Anwendung zwischen AWS-Konten unter der Anleitung
-					eines eines AWS-Lösungsarchitekten.
+					Beobachtete und lernte, wie eine Anwendung unter der Anleitung eines AWS Solutions
+					Architects zwischen AWS-Konten umbasiert wird.
 				{/if}
 			</li>
 			<li>
@@ -399,7 +399,9 @@
 	<div class="job-container">
 		<button
 			class="primary-button {$dark ? 'dark' : ''}"
-			style="color: {$dark ? 'var(--darktext)' : 'var(--primary)'}; display: flex; align-items: center;"
+			style="color: {$dark
+				? 'var(--darktext)'
+				: 'var(--primary)'}; display: flex; align-items: center;"
 		>
 			<a
 				style="color: {$dark
@@ -410,9 +412,9 @@
 				aria-label="LinkedIn profile"
 			>
 				{#if $language == 'EN'}
-					Plus four more experiences
+					Plus four more work experiences
 				{:else if $language == 'DE'}
-					Plus vier weitere Erlebnisse
+					Vier weitere Berufserfahrungen
 				{/if}
 			</a>
 		</button>
@@ -523,7 +525,9 @@
 	<div class="certification-container">
 		<button
 			class="primary-button {$dark ? 'dark' : ''}"
-			style="color: {$dark ? 'var(--darktext)' : 'var(--primary)'}; display: flex; align-items: center;"
+			style="color: {$dark
+				? 'var(--darktext)'
+				: 'var(--primary)'}; display: flex; align-items: center;"
 		>
 			<a
 				style="color: {$dark
@@ -536,7 +540,7 @@
 				{#if $language == 'EN'}
 					Plus five more certifications
 				{:else if $language == 'DE'}
-					Plus fünf weitere Zertifizierungen
+					Fünf weitere Zertifizierungen
 				{/if}
 			</a>
 		</button>
@@ -701,7 +705,7 @@
 		}
 	}
 
-    @media (max-width: 1024px) {
+	@media (max-width: 1024px) {
 		.hero-container {
 			padding-bottom: 200px;
 		}

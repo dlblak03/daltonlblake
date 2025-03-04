@@ -1,7 +1,8 @@
 <script lang="ts">
 	import { dark, language } from '../ui_store';
 
-    let pageTitle = $language == "EN" ? "Attributions" : $language == "DE" ? "Zuschreibungen" : "Attributions"
+	let pageTitle =
+		$language == 'EN' ? 'Attributions' : $language == 'DE' ? 'Zuschreibungen' : 'Attributions';
 </script>
 
 <svelte:head>
@@ -41,6 +42,13 @@
 	</p>
 	<p style="color: {$dark ? 'var(--darktext)' : 'black'}">
 		{#if $language == 'EN'}
+			Copyright (c) 2020 [these people](https://github.com/sveltejs/kit/graphs/contributors)
+		{:else if $language == 'DE'}
+			Copyright (c) 2020 [these people](https://github.com/sveltejs/kit/graphs/contributors)
+		{/if}
+	</p>
+	<p style="color: {$dark ? 'var(--darktext)' : 'black'}">
+		{#if $language == 'EN'}
 			View the full MIT License:
 		{:else if $language == 'DE'}
 			Siehe die vollständige MIT-Lizenz:
@@ -56,11 +64,11 @@
 	<h3 style="color: {$dark ? 'var(--darktext)' : 'black'}">Lucide</h3>
 	<p style="color: {$dark ? 'var(--darktext)' : 'black'}">
 		{#if $language == 'EN'}
-			This website uses Lucide, which is licensed under the MIT License. Lucide is a library of
+			This website uses Lucide, which is licensed under the ISC License. Lucide is a library of
 			open-source icons that you can use in your web projects. It is lightweight and customizable.
 			You can find more information and the full collection of icons on the
 		{:else if $language == 'DE'}
-			Diese Website verwendet Lucide, das unter der MIT-Lizenz lizenziert ist. Lucide ist eine
+			Diese Website verwendet Lucide, das unter der ISC-Lizenz lizenziert ist. Lucide ist eine
 			Bibliothek von Open-Source-Symbolen, die Sie in Ihren Webprojekten verwenden können. Sie ist
 			leichtgewichtig und anpassbar. Weitere Informationen und die vollständige Sammlung von Icons
 			finden Sie auf der Website
@@ -74,15 +82,24 @@
 	</p>
 	<p style="color: {$dark ? 'var(--darktext)' : 'black'}">
 		{#if $language == 'EN'}
-			View the full MIT License:
+			Copyright (c) for portions of Lucide are held by Cole Bemis 2013-2022 as part of Feather
+			(MIT). All other copyright (c) for Lucide are held by Lucide Contributors 2022.
 		{:else if $language == 'DE'}
-			Siehe die vollständige MIT-Lizenz:
+			Copyright (c) for portions of Lucide are held by Cole Bemis 2013-2022 as part of Feather
+			(MIT). All other copyright (c) for Lucide are held by Lucide Contributors 2022.
+		{/if}
+	</p>
+	<p style="color: {$dark ? 'var(--darktext)' : 'black'}">
+		{#if $language == 'EN'}
+			View the full ISC License:
+		{:else if $language == 'DE'}
+			Siehe die vollständige ISC-Lizenz:
 		{/if}
 		<a
 			style="color: {$dark ? 'var(--darktext)' : 'black'}"
 			href="https://github.com/lucide-icons/lucide/blob/main/LICENSE"
 			target="_blank"
-			rel="noopener noreferrer">MIT License</a
+			rel="noopener noreferrer">ISC License</a
 		>.
 	</p>
 </div>

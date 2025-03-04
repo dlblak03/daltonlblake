@@ -72,7 +72,7 @@
 	<!-- Navigation Menu - Desktop -->
 	<div
 		class="hide-under-desktop"
-		style="display: flex; align-items: center; min-height: 70px; width: calc(100% - 40px); padding: 0 20px; gap: 10px;"
+		style="display: flex; align-items: center; min-height: 70px; width: calc(100% - 40px); padding: 0 20px; gap: 10px; position: relative;"
 	>
 		<button
 			on:click={() => {
@@ -118,6 +118,7 @@
 				{/if}
 			</button>
 		</div>
+
 		<button
 			on:click={() => {
 				location.href = '/';
@@ -177,7 +178,7 @@
 	<!-- Navigation Menu - Under Desktop  -->
 	<div
 		class="show-under-desktop"
-		style="display: flex; align-items: center; min-height: 70px; width: calc(100% - 40px); padding: 0 20px; gap: 10px;"
+		style="display: flex; align-items: center; min-height: 70px; width: calc(100% - 40px); padding: 0 20px; gap: 10px; position: relative;"
 	>
 		<button
 			on:click={() => {
