@@ -295,21 +295,23 @@
 			</li>
 			<li>
 				{#if $language == 'EN'}
-					Led the UI design and implementation for the ArcBook application.
+					Led the UI design and implementation of a comprehensive application that streamlined and
+					tracked processes from initiation to completion within pharmaceutical facilities.
 				{:else if $language == 'DE'}
-					Leitung des UI-Designs und der Implementierung für die ArcBook-Anwendung.
+					Leitete das UI-Design und die Implementierung einer umfassenden Anwendung, mit der
+					Prozesse von der Einleitung bis zum Abschluss in pharmazeutischen Einrichtungen
+					rationalisiert und verfolgt werden konnten.
 				{/if}
 			</li>
 			<li>
 				{#if $language == 'EN'}
-					Developed key applications, including data/stats dashboards, patient dashboards, a company
-					configuration tool, a medication administration record system, and a front-end CSS
-					framework for UI components (buttons, cards, forms).
+					Developed key applications, including data dashboards, patient management tools, a company
+					configuration system, a medication administration record system, and a front-end CSS
+					framework for UI components.
 				{:else if $language == 'DE'}
-					Entwicklung von Schlüsselanwendungen, darunter Daten-/Statistik-Dashboards,
-					Patienten-Dashboards, ein Tool zur Unternehmenskonfiguration, ein System zur Erfassung der
-					Medikamentenverwaltung und ein CSS-Frontend-Framework für UI-Komponenten (Schaltflächen,
-					Karten, Formulare).
+					Entwicklung von Schlüsselanwendungen, darunter Daten-Dashboards,
+					Patientenmanagement-Tools, ein Unternehmenskonfigurationssystem, ein
+					Medikamentenverwaltungssystem und ein Front-End-CSS-Framework für UI-Komponenten.
 				{/if}
 			</li>
 			<li>
@@ -348,11 +350,11 @@
 			</li>
 			<li>
 				{#if $language == 'EN'}
-					Designed and implemented the Med Pass system, streamlining medication administration for
-					nursing staff in Adult Day Centers and Correctional Facilities.
+					Designed and implemented a medication administration system to streamline processes for
+					nursing staff in healthcare and correctional environments.
 				{:else if $language == 'DE'}
-					Entwicklung und Einführung des Med-Pass-Systems zur Vereinfachung der Medikamentenvergabe
-					für das Pflegepersonal in Tagesstätten für Erwachsene und in Justizvollzugsanstalten.
+					Entwicklung und Implementierung eines Systems zur Medikamentenverwaltung, um die Prozesse
+					für das Pflegepersonal im Gesundheitswesen und in Justizvollzugsanstalten zu optimieren.
 				{/if}
 			</li>
 		</ul>
