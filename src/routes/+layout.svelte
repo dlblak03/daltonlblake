@@ -120,46 +120,70 @@
 		</div>
 
 		<button
-			on:click={() => {
-				location.href = '/';
-			}}
 			class="primary-button {$dark ? 'dark' : ''}"
-			style="color: {$dark ? 'var(--darktext)' : 'var(--primary)'}; margin-left: auto;"
+			style="color: {$dark
+				? 'var(--darktext)'
+				: 'var(--primary)'}; margin-left: auto; padding: 0; height: 35px;"
 		>
 			{#if $language == 'EN'}
-				Resume
+				<a
+					href="/"
+					style="color: {$dark
+						? 'var(--darktext)'
+						: 'var(--primary)'}; text-decoration: none; padding: 10px 10px;">Resume</a
+				>
 			{:else if $language == 'DE'}
-				Lebenslauf
+				<a
+					href="/"
+					style="color: {$dark
+						? 'var(--darktext)'
+						: 'var(--primary)'}; text-decoration: none; padding: 10px 10px;">Lebenslauf</a
+				>
 			{/if}
 		</button>
 		<button
-			on:click={() => {
-				location.href = '/projects';
-			}}
 			class="primary-button {$dark ? 'dark' : ''}"
-			style="color: {$dark ? 'var(--darktext)' : 'var(--primary)'};"
+			style="color: {$dark ? 'var(--darktext)' : 'var(--primary)'}; padding: 0; height: 35px;"
 		>
 			{#if $language == 'EN'}
-				Projects
+				<a
+					href="/projects"
+					style="color: {$dark
+						? 'var(--darktext)'
+						: 'var(--primary)'}; text-decoration: none; padding: 10px 10px;">Projects</a
+				>
 			{:else if $language == 'DE'}
-				Projekte
+				<a
+					href="/projects"
+					style="color: {$dark
+						? 'var(--darktext)'
+						: 'var(--primary)'}; text-decoration: none; padding: 10px 10px;">Projekte</a
+				>
 			{/if}
 		</button>
 		<button
-			on:click={() => {
-				location.href = '/blog';
-			}}
 			class="primary-button {$dark ? 'dark' : ''}"
-			style="color: {$dark ? 'var(--darktext)' : 'var(--primary)'};"
+			style="color: {$dark ? 'var(--darktext)' : 'var(--primary)'}; padding: 0; height: 35px;"
 		>
 			{#if $language == 'EN'}
-				Blog
+				<a
+					href="/blog"
+					style="color: {$dark
+						? 'var(--darktext)'
+						: 'var(--primary)'}; text-decoration: none; padding: 10px 10px;">Blog</a
+				>
 			{:else if $language == 'DE'}
-				Blog
+				<a
+					href="/blog"
+					style="color: {$dark
+						? 'var(--darktext)'
+						: 'var(--primary)'}; text-decoration: none; padding: 10px 10px;">Blog</a
+				>
 			{/if}
 		</button>
 		{#if $dark}
 			<button
+				aria-label="Toggle Color Mode"
 				on:click={toggleDark}
 				style="background: none; outline: 0; border: none; cursor: pointer;"
 			>
@@ -167,6 +191,7 @@
 			</button>
 		{:else}
 			<button
+				aria-label="Toggle Color Mode"
 				on:click={toggleDark}
 				style="background: none; outline: 0; border: none; cursor: pointer;"
 			>
@@ -225,7 +250,9 @@
 			</button>
 		</div>
 
-		<div style="min-height: 35px; display: flex; align-items: center; justify-content: center; margin-left: auto;">
+		<div
+			style="min-height: 35px; display: flex; align-items: center; justify-content: center; margin-left: auto;"
+		>
 			<input id="toggle-hamburger" type="checkbox" />
 			<!-- svelte-ignore a11y_click_events_have_key_events -->
 			<!-- svelte-ignore a11y_no_noninteractive_element_interactions -->
@@ -251,47 +278,69 @@
 				: 'rgb(253,253,253)'}; box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15), 0px 1px 3px rgba(0, 0, 0, 0.1);"
 		>
 			<button
-				on:click={() => {
-					location.href = "/"
-				}}
 				class="primary-button {$dark ? 'dark' : ''}"
-				style="color: {$dark ? 'var(--darktext)' : 'var(--primary)'};"
+				style="color: {$dark ? 'var(--darktext)' : 'var(--primary)'}; padding: 0; height: 35px;"
 			>
 				{#if $language == 'EN'}
-					Resume
+					<a
+						href="/"
+						style="color: {$dark
+							? 'var(--darktext)'
+							: 'var(--primary)'}; text-decoration: none; padding: 10px 10px;">Resume</a
+					>
 				{:else if $language == 'DE'}
-					Lebenslauf
+					<a
+						href="/"
+						style="color: {$dark
+							? 'var(--darktext)'
+							: 'var(--primary)'}; text-decoration: none; padding: 10px 10px;">Lebenslauf</a
+					>
 				{/if}
 			</button>
 			<button
-				on:click={() => {
-					location.href = "/projects"
-				}}
 				class="primary-button {$dark ? 'dark' : ''}"
-				style="color: {$dark ? 'var(--darktext)' : 'var(--primary)'};"
+				style="color: {$dark ? 'var(--darktext)' : 'var(--primary)'}; padding: 0; height: 35px;"
 			>
 				{#if $language == 'EN'}
-					Projects
+					<a
+						href="/projects"
+						style="color: {$dark
+							? 'var(--darktext)'
+							: 'var(--primary)'}; text-decoration: none; padding: 10px 10px;">Projects</a
+					>
 				{:else if $language == 'DE'}
-					Projekte
+					<a
+						href="/projects"
+						style="color: {$dark
+							? 'var(--darktext)'
+							: 'var(--primary)'}; text-decoration: none; padding: 10px 10px;">Projekte</a
+					>
 				{/if}
 			</button>
 			<button
-				on:click={() => {
-					location.href = "/blog"
-				}}
 				class="primary-button {$dark ? 'dark' : ''}"
-				style="color: {$dark ? 'var(--darktext)' : 'var(--primary)'};"
+				style="color: {$dark ? 'var(--darktext)' : 'var(--primary)'}; padding: 0; height: 35px;"
 			>
 				{#if $language == 'EN'}
-					Blog
+					<a
+						href="/blog"
+						style="color: {$dark
+							? 'var(--darktext)'
+							: 'var(--primary)'}; text-decoration: none; padding: 10px 10px;">Blog</a
+					>
 				{:else if $language == 'DE'}
-					Blog
+					<a
+						href="/blog"
+						style="color: {$dark
+							? 'var(--darktext)'
+							: 'var(--primary)'}; text-decoration: none; padding: 10px 10px;">Blog</a
+					>
 				{/if}
 			</button>
 		</div>
 		{#if $dark}
 			<button
+				aria-label="Toggle Color Mode"
 				on:click={toggleDark}
 				style="background: none; outline: 0; border: none; cursor: pointer;"
 			>
@@ -299,6 +348,7 @@
 			</button>
 		{:else}
 			<button
+				aria-label="Toggle Color Mode"
 				on:click={toggleDark}
 				style="background: none; outline: 0; border: none; cursor: pointer;"
 			>
