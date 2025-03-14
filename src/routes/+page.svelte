@@ -489,6 +489,26 @@
 			</div>
 		</div>
 	</div>
+
+	<!-- Master of Science · Fachhochschule Südwestfalen -->
+	<div class="degree-container">
+		<div class="degree-header">
+			<div class="degree-info {$dark ? 'dark-degree-info' : ''}">
+				<h3>Fachhochschule Südwestfalen</h3>
+				<p class="degree">Master of Science in Informatics & Business</p>
+				<p class="degree">
+					Hagen, {#if $language == 'EN'}
+						Germany
+					{:else if $language == 'DE'}
+						Deutschland
+					{/if}
+				</p>
+			</div>
+			<div class="degree-dates {$dark ? 'dark-degree-dates' : ''}">
+				<time datetime="2025-03">03.2025</time> - <time datetime="2026-12">12.2026</time>
+			</div>
+		</div>
+	</div>
 </div>
 
 <!-- Certifications  -->
