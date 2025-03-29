@@ -505,7 +505,7 @@
 				</p>
 			</div>
 			<div class="degree-dates {$dark ? 'dark-degree-dates' : ''}">
-				<time datetime="2025-03">03.2025</time> - <time datetime="2026-12">12.2026</time>
+				<time datetime="2025-03">03.2025</time> - <time datetime="2026-07">07.2026</time>
 			</div>
 		</div>
 	</div>
