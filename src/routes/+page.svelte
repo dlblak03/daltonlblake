@@ -502,6 +502,12 @@
 					{:else if $language == 'DE'}
 						Deutschland
 					{/if}
+					·
+					{#if $language == 'EN'}
+						IT Quality Management
+					{:else if $language == 'DE'}
+						IT Quality Management
+					{/if}
 				</p>
 			</div>
 			<div class="degree-dates {$dark ? 'dark-degree-dates' : ''}">
