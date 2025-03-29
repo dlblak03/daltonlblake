@@ -2,6 +2,8 @@
 	import { onMount } from 'svelte';
 	import { dark, language } from './ui_store';
 
+	let pageTitle = $language == "EN" ? "Resume" : $language == "DE" ? "Lebenslauf" : "Resume"
+
 	let weAnimationPlayState = 'paused';
 	let edAnimationPlayState = 'paused';
 	let ceAnimationPlayState = 'paused';
@@ -91,11 +93,11 @@
 </script>
 
 <svelte:head>
-	<title>Dalton Blake</title>
+	<title>Dalton Blake | {pageTitle}</title>
 
 	<meta
 		name="description"
-		content="Explore the portfolio of Dalton Blake, an aspiring software engineer. Learn about his professional experience, projects, and certifications in software development. Discover his work in UI/UX design, application development, and more."
+		content="Explore the portfolio of Dalton Blake, an aspiring software engineer. Learn about his professional experience, projects, and certifications in software development."
 	/>
 </svelte:head>
 
