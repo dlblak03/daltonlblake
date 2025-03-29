@@ -95,9 +95,7 @@
 
 	<meta
 		name="description"
-		content="Explore the portfolio of Dalton Blake, an aspiring software engineer. 
-        Learn about his professional experience, projects, and certifications in software development. 
-        Discover his work in UI/UX design, application development, and more."
+		content="Explore the portfolio of Dalton Blake, an aspiring software engineer. Learn about his professional experience, projects, and certifications in software development. Discover his work in UI/UX design, application development, and more."
 	/>
 </svelte:head>
 

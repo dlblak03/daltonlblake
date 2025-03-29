@@ -9,8 +9,7 @@
 
 	<meta
 		name="description"
-		content="Read Dalton Blake’s Privacy Policy to understand how your data is handled. 
-        Learn about cookies, third-party services, and how personal information is protected on this personal portfolio website."
+		content="Read Dalton Blake’s Privacy Policy to understand how your data is handled. Learn about cookies, third-party services, and how personal information is protected on this personal portfolio website."
 	/>
 </svelte:head>
 

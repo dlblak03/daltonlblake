@@ -9,8 +9,7 @@
 
 	<meta
 		name="description"
-		content="Browse the projects by Dalton Blake, showcasing innovative software applications, UI/UX designs, and development expertise. 
-        Explore his work in modern web technologies and creative solutions."
+		content="Browse the projects by Dalton Blake, showcasing innovative software applications, UI/UX designs, and development expertise. Explore his work in modern web technologies and creative solutions."
 	/>
 </svelte:head>
 
