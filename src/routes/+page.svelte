@@ -497,16 +497,15 @@
 				<h3>Fachhochschule Südwestfalen</h3>
 				<p class="degree">Master of Science in Informatics & Business</p>
 				<p class="degree">
-					Hagen, {#if $language == 'EN'}
-						Germany
-					{:else if $language == 'DE'}
-						Deutschland
-					{/if}
-					·
 					{#if $language == 'EN'}
 						IT Quality Management
 					{:else if $language == 'DE'}
 						IT Quality Management
+					{/if}
+					 · Hagen, {#if $language == 'EN'}
+						Germany
+					{:else if $language == 'DE'}
+						Deutschland
 					{/if}
 				</p>
 			</div>
