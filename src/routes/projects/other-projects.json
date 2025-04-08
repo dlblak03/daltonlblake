@@ -1,0 +1,721 @@
+[
+    {
+        "en": {
+            "category": "AWS Labs",
+            "name": "Build a Serverless Web Application",
+            "description": "Completed the lab to practice building a web app using Lambda, API Gateway, S3, DynamoDB, and S3.",
+            "link": "https://github.com/dlblak03/AWS-Labs/tree/master/Build-a-Serverless-Web-Application"
+        },
+        "de": {
+            "category": "AWS Labs",
+            "name": "Erstellen einer serverlosen Webanwendung",
+            "description": "Projekt abgeschlossen, um die Erstellung einer Webanwendung mit Lambda, API Gateway, S3, DynamoDB und S3 zu üben.",
+            "link": "https://github.com/dlblak03/AWS-Labs/tree/master/Build-a-Serverless-Web-Application"
+        }
+    },
+    {
+        "en": {
+            "category": "AWS Labs",
+            "name": "React Application",
+            "description": "Completed lab to practice React skills and to understand AWS Amplify.",
+            "link": "https://github.com/dlblak03/AWS-Labs/tree/master/React-Application"
+        },
+        "de": {
+            "category": "AWS Labs",
+            "name": "React Anwendung",
+            "description": "Abgeschlossenes Projekt zum Üben von React-Kenntnissen und zum Verständnis von AWS Amplify.",
+            "link": "https://github.com/dlblak03/AWS-Labs/tree/master/React-Application"
+        }
+    },
+
+
+    {
+        "en": {
+            "category": "JavaScript Projects",
+            "name": "",
+            "description": "",
+            "link": ""
+        },
+        "de": {
+            "category": "JavaScript Projekte",
+            "name": "",
+            "description": "",
+            "link": ""
+        }
+    },
+    {
+        "en": {
+            "category": "JavaScript Projects",
+            "name": "",
+            "description": "",
+            "link": ""
+        },
+        "de": {
+            "category": "JavaScript Projekte",
+            "name": "",
+            "description": "",
+            "link": ""
+        }
+    },
+    {
+        "en": {
+            "category": "JavaScript Projects",
+            "name": "",
+            "description": "",
+            "link": ""
+        },
+        "de": {
+            "category": "JavaScript Projekte",
+            "name": "",
+            "description": "",
+            "link": ""
+        }
+    },
+    {
+        "en": {
+            "category": "JavaScript Projects",
+            "name": "",
+            "description": "",
+            "link": ""
+        },
+        "de": {
+            "category": "JavaScript Projekte",
+            "name": "",
+            "description": "",
+            "link": ""
+        }
+    },
+
+    {
+        "en": {
+            "category": "C# Projects",
+            "name": "",
+            "description": "",
+            "link": ""
+        },
+        "de": {
+            "category": "C# Projekte",
+            "name": "",
+            "description": "",
+            "link": ""
+        }
+    },
+    {
+        "en": {
+            "category": "C# Projects",
+            "name": "",
+            "description": "",
+            "link": ""
+        },
+        "de": {
+            "category": "C# Projekte",
+            "name": "",
+            "description": "",
+            "link": ""
+        }
+    },
+    {
+        "en": {
+            "category": "C# Projects",
+            "name": "",
+            "description": "",
+            "link": ""
+        },
+        "de": {
+            "category": "C# Projekte",
+            "name": "",
+            "description": "",
+            "link": ""
+        }
+    },
+    {
+        "en": {
+            "category": "C# Projects",
+            "name": "",
+            "description": "",
+            "link": ""
+        },
+        "de": {
+            "category": "C# Projekte",
+            "name": "",
+            "description": "",
+            "link": ""
+        }
+    },
+    {
+        "en": {
+            "category": "C# Projects",
+            "name": "",
+            "description": "",
+            "link": ""
+        },
+        "de": {
+            "category": "C# Projekte",
+            "name": "",
+            "description": "",
+            "link": ""
+        }
+    },
+    {
+        "en": {
+            "category": "C# Projects",
+            "name": "",
+            "description": "",
+            "link": ""
+        },
+        "de": {
+            "category": "C# Projekte",
+            "name": "",
+            "description": "",
+            "link": ""
+        }
+    },
+
+    {
+        "en": {
+            "category": "C & C++ Projects",
+            "name": "",
+            "description": "",
+            "link": ""
+        },
+        "de": {
+            "category": "C & C++ Projekte",
+            "name": "",
+            "description": "",
+            "link": ""
+        }
+    },
+    {
+        "en": {
+            "category": "C & C++ Projects",
+            "name": "",
+            "description": "",
+            "link": ""
+        },
+        "de": {
+            "category": "C & C++ Projekte",
+            "name": "",
+            "description": "",
+            "link": ""
+        }
+    },
+    {
+        "en": {
+            "category": "C & C++ Projects",
+            "name": "",
+            "description": "",
+            "link": ""
+        },
+        "de": {
+            "category": "C & C++ Projekte",
+            "name": "",
+            "description": "",
+            "link": ""
+        }
+    },
+    {
+        "en": {
+            "category": "C & C++ Projects",
+            "name": "",
+            "description": "",
+            "link": ""
+        },
+        "de": {
+            "category": "C & C++ Projekte",
+            "name": "",
+            "description": "",
+            "link": ""
+        }
+    },
+    {
+        "en": {
+            "category": "C & C++ Projects",
+            "name": "",
+            "description": "",
+            "link": ""
+        },
+        "de": {
+            "category": "C & C++ Projekte",
+            "name": "",
+            "description": "",
+            "link": ""
+        }
+    },
+    {
+        "en": {
+            "category": "C & C++ Projects",
+            "name": "",
+            "description": "",
+            "link": ""
+        },
+        "de": {
+            "category": "C & C++ Projekte",
+            "name": "",
+            "description": "",
+            "link": ""
+        }
+    },
+    {
+        "en": {
+            "category": "C & C++ Projects",
+            "name": "",
+            "description": "",
+            "link": ""
+        },
+        "de": {
+            "category": "C & C++ Projekte",
+            "name": "",
+            "description": "",
+            "link": ""
+        }
+    },
+    {
+        "en": {
+            "category": "C & C++ Projects",
+            "name": "",
+            "description": "",
+            "link": ""
+        },
+        "de": {
+            "category": "C & C++ Projekte",
+            "name": "",
+            "description": "",
+            "link": ""
+        }
+    },
+    {
+        "en": {
+            "category": "C & C++ Projects",
+            "name": "",
+            "description": "",
+            "link": ""
+        },
+        "de": {
+            "category": "C & C++ Projekte",
+            "name": "",
+            "description": "",
+            "link": ""
+        }
+    },
+    {
+        "en": {
+            "category": "C & C++ Projects",
+            "name": "",
+            "description": "",
+            "link": ""
+        },
+        "de": {
+            "category": "C & C++ Projekte",
+            "name": "",
+            "description": "",
+            "link": ""
+        }
+    },
+    {
+        "en": {
+            "category": "C & C++ Projects",
+            "name": "",
+            "description": "",
+            "link": ""
+        },
+        "de": {
+            "category": "C & C++ Projekte",
+            "name": "",
+            "description": "",
+            "link": ""
+        }
+    },
+    {
+        "en": {
+            "category": "C & C++ Projects",
+            "name": "",
+            "description": "",
+            "link": ""
+        },
+        "de": {
+            "category": "C & C++ Projekte",
+            "name": "",
+            "description": "",
+            "link": ""
+        }
+    },
+    {
+        "en": {
+            "category": "C & C++ Projects",
+            "name": "",
+            "description": "",
+            "link": ""
+        },
+        "de": {
+            "category": "C & C++ Projekte",
+            "name": "",
+            "description": "",
+            "link": ""
+        }
+    },
+    {
+        "en": {
+            "category": "C & C++ Projects",
+            "name": "",
+            "description": "",
+            "link": ""
+        },
+        "de": {
+            "category": "C & C++ Projekte",
+            "name": "",
+            "description": "",
+            "link": ""
+        }
+    },
+    {
+        "en": {
+            "category": "C & C++ Projects",
+            "name": "",
+            "description": "",
+            "link": ""
+        },
+        "de": {
+            "category": "C & C++ Projekte",
+            "name": "",
+            "description": "",
+            "link": ""
+        }
+    },
+
+    {
+        "en": {
+            "category": "Java Projects",
+            "name": "",
+            "description": "",
+            "link": ""
+        },
+        "de": {
+            "category": "Java Projekte",
+            "name": "",
+            "description": "",
+            "link": ""
+        }
+    },
+    {
+        "en": {
+            "category": "Java Projects",
+            "name": "",
+            "description": "",
+            "link": ""
+        },
+        "de": {
+            "category": "Java Projekte",
+            "name": "",
+            "description": "",
+            "link": ""
+        }
+    },
+    {
+        "en": {
+            "category": "Java Projects",
+            "name": "",
+            "description": "",
+            "link": ""
+        },
+        "de": {
+            "category": "Java Projekte",
+            "name": "",
+            "description": "",
+            "link": ""
+        }
+    },
+    {
+        "en": {
+            "category": "Java Projects",
+            "name": "",
+            "description": "",
+            "link": ""
+        },
+        "de": {
+            "category": "Java Projekte",
+            "name": "",
+            "description": "",
+            "link": ""
+        }
+    },
+    {
+        "en": {
+            "category": "Java Projects",
+            "name": "",
+            "description": "",
+            "link": ""
+        },
+        "de": {
+            "category": "Java Projekte",
+            "name": "",
+            "description": "",
+            "link": ""
+        }
+    },
+    {
+        "en": {
+            "category": "Java Projects",
+            "name": "",
+            "description": "",
+            "link": ""
+        },
+        "de": {
+            "category": "Java Projekte",
+            "name": "",
+            "description": "",
+            "link": ""
+        }
+    },
+    {
+        "en": {
+            "category": "Java Projects",
+            "name": "",
+            "description": "",
+            "link": ""
+        },
+        "de": {
+            "category": "Java Projekte",
+            "name": "",
+            "description": "",
+            "link": ""
+        }
+    },
+    {
+        "en": {
+            "category": "Java Projects",
+            "name": "",
+            "description": "",
+            "link": ""
+        },
+        "de": {
+            "category": "Java Projekte",
+            "name": "",
+            "description": "",
+            "link": ""
+        }
+    },
+    {
+        "en": {
+            "category": "Java Projects",
+            "name": "",
+            "description": "",
+            "link": ""
+        },
+        "de": {
+            "category": "Java Projekte",
+            "name": "",
+            "description": "",
+            "link": ""
+        }
+    },
+    {
+        "en": {
+            "category": "Java Projects",
+            "name": "",
+            "description": "",
+            "link": ""
+        },
+        "de": {
+            "category": "Java Projekte",
+            "name": "",
+            "description": "",
+            "link": ""
+        }
+    },
+    {
+        "en": {
+            "category": "Java Projects",
+            "name": "",
+            "description": "",
+            "link": ""
+        },
+        "de": {
+            "category": "Java Projekte",
+            "name": "",
+            "description": "",
+            "link": ""
+        }
+    },
+    {
+        "en": {
+            "category": "Java Projects",
+            "name": "",
+            "description": "",
+            "link": ""
+        },
+        "de": {
+            "category": "Java Projekte",
+            "name": "",
+            "description": "",
+            "link": ""
+        }
+    },
+    {
+        "en": {
+            "category": "Java Projects",
+            "name": "",
+            "description": "",
+            "link": ""
+        },
+        "de": {
+            "category": "Java Projekte",
+            "name": "",
+            "description": "",
+            "link": ""
+        }
+    },
+    {
+        "en": {
+            "category": "Java Projects",
+            "name": "",
+            "description": "",
+            "link": ""
+        },
+        "de": {
+            "category": "Java Projekte",
+            "name": "",
+            "description": "",
+            "link": ""
+        }
+    },
+    {
+        "en": {
+            "category": "Java Projects",
+            "name": "",
+            "description": "",
+            "link": ""
+        },
+        "de": {
+            "category": "Java Projekte",
+            "name": "",
+            "description": "",
+            "link": ""
+        }
+    },
+    {
+        "en": {
+            "category": "Java Projects",
+            "name": "",
+            "description": "",
+            "link": ""
+        },
+        "de": {
+            "category": "Java Projekte",
+            "name": "",
+            "description": "",
+            "link": ""
+        }
+    },
+    {
+        "en": {
+            "category": "Java Projects",
+            "name": "",
+            "description": "",
+            "link": ""
+        },
+        "de": {
+            "category": "Java Projekte",
+            "name": "",
+            "description": "",
+            "link": ""
+        }
+    },
+    {
+        "en": {
+            "category": "Java Projects",
+            "name": "",
+            "description": "",
+            "link": ""
+        },
+        "de": {
+            "category": "Java Projekte",
+            "name": "",
+            "description": "",
+            "link": ""
+        }
+    },
+    {
+        "en": {
+            "category": "Java Projects",
+            "name": "",
+            "description": "",
+            "link": ""
+        },
+        "de": {
+            "category": "Java Projekte",
+            "name": "",
+            "description": "",
+            "link": ""
+        }
+    },
+    {
+        "en": {
+            "category": "Java Projects",
+            "name": "",
+            "description": "",
+            "link": ""
+        },
+        "de": {
+            "category": "Java Projekte",
+            "name": "",
+            "description": "",
+            "link": ""
+        }
+    },
+    {
+        "en": {
+            "category": "Java Projects",
+            "name": "",
+            "description": "",
+            "link": ""
+        },
+        "de": {
+            "category": "Java Projekte",
+            "name": "",
+            "description": "",
+            "link": ""
+        }
+    },
+    {
+        "en": {
+            "category": "Java Projects",
+            "name": "",
+            "description": "",
+            "link": ""
+        },
+        "de": {
+            "category": "Java Projekte",
+            "name": "",
+            "description": "",
+            "link": ""
+        }
+    },
+    {
+        "en": {
+            "category": "Java Projects",
+            "name": "",
+            "description": "",
+            "link": ""
+        },
+        "de": {
+            "category": "Java Projekte",
+            "name": "",
+            "description": "",
+            "link": ""
+        }
+    },
+    {
+        "en": {
+            "category": "Java Projects",
+            "name": "",
+            "description": "",
+            "link": ""
+        },
+        "de": {
+            "category": "Java Projekte",
+            "name": "",
+            "description": "",
+            "link": ""
+        }
+    }
+]

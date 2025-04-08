@@ -2,6 +2,7 @@
 	import { onMount } from 'svelte';
 	import { dark, language } from '../ui_store';
 	import { ArrowLeft, ArrowRight, Folder } from 'lucide-svelte';
+	import otherProjects from './other-projects.json'
 
 	let pageTitle = $language == 'EN' ? 'Projects' : $language == 'DE' ? 'Projekte' : 'Projects';
 
@@ -81,7 +82,7 @@
 		'C & C++ Projekte',
 		'Java Projekte'
 	];
-	let selectedFolder: string = ""
+	let selectedFolder: string = '';
 
 	otherFoldersEN.sort();
 	otherFoldersDE.sort();
@@ -90,16 +91,15 @@
 		const folders = document.getElementById('folderTable');
 		const projects = document.getElementById('projectsTable');
 
-		if (folders && projects && direction == "left") {
+		if (folders && projects && direction == 'left') {
 			folders.style.transform = 'translateX(-100%)';
 			projects.style.transform = 'translateX(-100%)';
-		}
-		else if(folders && projects && direction == "right") {
+		} else if (folders && projects && direction == 'right') {
 			folders.style.transform = 'translateX(0)';
 			projects.style.transform = 'translateX(100%)';
 		}
 
-		selectedFolder = selected
+		selectedFolder = selected;
 	};
 </script>
 
@@ -215,14 +215,21 @@
 			id="folderTable"
 			style="border: solid 1px {$dark ? 'var(--darktext)' : 'var(--primary)'}"
 		>
-			{#each $language == "EN" ? otherFoldersEN : otherFoldersDE as folder}
+			{#each $language == 'EN' ? otherFoldersEN : otherFoldersDE as folder}
 				<button
 					class="folder-row {$dark ? 'dark' : ''}"
 					style="border-bottom: solid 1px {$dark ? 'var(--darktext)' : 'var(--primary)'}"
-					onclick={() => { changeTables(folder, "left") }}
+					onclick={() => {
+						changeTables(folder, 'left');
+					}}
 				>
 					<Folder color={$dark ? 'var(--darktext)' : 'var(--primary)'} strokeWidth="1"></Folder>
-					<p class="row-text" style="color: {$dark ? 'var(--darktext)' : 'auto'}; font-weight: 500;">{folder}</p>
+					<p
+						class="row-text"
+						style="color: {$dark ? 'var(--darktext)' : 'auto'}; font-weight: 500;"
+					>
+						{folder} ({otherProjects.filter((p) => { if($language == "EN") return p.en.category == folder; else return p.de.category == folder}).length})
+					</p>
 					<ArrowRight
 						style="margin-left: auto"
 						color={$dark ? 'var(--darktext)' : 'var(--primary)'}
@@ -236,10 +243,19 @@
 			id="projectsTable"
 			style="border: solid 1px {$dark ? 'var(--darktext)' : 'var(--primary)'}"
 		>
-			<button class="go-back-row {$dark ? 'dark' : ''}" onclick={() => { changeTables("", "right") }}>
+			<button
+				class="go-back-row {$dark ? 'dark' : ''}"
+				onclick={() => {
+					changeTables('', 'right');
+				}}
+			>
 				<ArrowLeft color={$dark ? 'var(--darktext)' : 'var(--primary)'} strokeWidth="1"></ArrowLeft>
-				<p class="row-text" style="color: {$dark ? 'var(--darktext)' : 'auto'}; font-weight: 500;">{selectedFolder}</p>
+				<p class="row-text" style="color: {$dark ? 'var(--darktext)' : 'auto'}; font-weight: 500;">
+					{selectedFolder} ({otherProjects.filter((p) => { if($language == "EN") return p.en.category == selectedFolder; else return p.de.category == selectedFolder}).length})
+				</p>
 			</button>
+			<div>
+			</div>
 		</div>
 	</div>
 </div>
@@ -411,8 +427,8 @@
 
 	.pulsating-wrapper {
 		position: relative;
-		width: 10px;
-		height: 10px;
+		min-width: 10px;
+		min-height: 10px;
 		background-color: #28a745;
 		border-radius: 50%;
 		animation: pulse 1.5s infinite;
@@ -438,6 +454,10 @@
 
 		.projects > h2 {
 			font-size: 1.125rem;
+		}
+
+		.showcase-title {
+			font-size: 1rem;
 		}
 	}
 
