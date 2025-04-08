@@ -42,9 +42,19 @@
 	</p>
 	<p style="color: {$dark ? 'var(--darktext)' : 'black'}">
 		{#if $language == 'EN'}
-			Copyright (c) 2020 [these people](https://github.com/sveltejs/kit/graphs/contributors)
+			Copyright (c) 2020 <a
+			style="color: {$dark ? 'var(--darktext)' : 'black'}"
+			href="https://github.com/sveltejs/kit/graphs/contributors"
+			target="_blank"
+			rel="noopener noreferrer">[these people]</a
+		>
 		{:else if $language == 'DE'}
-			Copyright (c) 2020 [these people](https://github.com/sveltejs/kit/graphs/contributors)
+			Copyright (c) 2020 <a
+			style="color: {$dark ? 'var(--darktext)' : 'black'}"
+			href="https://github.com/sveltejs/kit/graphs/contributors"
+			target="_blank"
+			rel="noopener noreferrer">[these people]</a
+		>
 		{/if}
 	</p>
 	<p style="color: {$dark ? 'var(--darktext)' : 'black'}">
@@ -126,6 +136,7 @@
 	.attributions p {
 		font-size: 1rem;
 		margin-bottom: 15px;
+		width: 100%;
 	}
 
 	.attributions a:hover {

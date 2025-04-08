@@ -11,7 +11,7 @@
 	/>
 </svelte:head>
 
-<section class="impressum">
+<div class="impressum">
 	<h2 style="color: {$dark ? 'var(--darktext)' : 'black'}">Impressum</h2>
 	<p style="color: {$dark ? 'var(--darktext)' : 'black'}">
 		<span style="font-weight: bold; color: {$dark ? 'var(--darktext)' : 'black'};">Name:</span> Dalton
@@ -44,7 +44,7 @@
 			sammelt keine Nutzerdaten und erlaubt keine Nutzereinsendungen.
 		{/if}
 	</p>
-</section>
+</div>
 
 <style type="text/css">
 	* {
