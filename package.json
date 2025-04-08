@@ -14,8 +14,8 @@
 		"lint": "prettier --check ."
 	},
 	"devDependencies": {
-		"@sveltejs/adapter-netlify": "^4.4.0",
-		"@sveltejs/kit": "^2.16.0",
+		"@sveltejs/adapter-netlify": "^0.0.13",
+		"@sveltejs/kit": "^2.20.4",
 		"@sveltejs/vite-plugin-svelte": "^5.0.0",
 		"@tailwindcss/vite": "^4.0.0",
 		"prettier": "^3.4.2",
