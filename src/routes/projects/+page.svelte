@@ -68,7 +68,7 @@
 		},
 		{
 			en: {
-				thumbnail: '/ktomek_white_logo_color_background_horizontal.png',
+				thumbnail: '/ktomek.png',
 				name: 'Ktomek App',
 				description:
 					'The Ktomek App is a custom-built web application developed during my time as a self-employed engineer.',
@@ -76,7 +76,7 @@
 				link: 'https://github.com/dlblak03/ktomek'
 			},
 			de: {
-				thumbnail: '/ktomek_white_logo_color_background_horizontal.png',
+				thumbnail: '/ktomek.png',
 				name: 'Ktomek Anwendung',
 				description:
 					'Die Ktomek App ist eine maßgeschneiderte Webanwendung, die ich während meiner Zeit als selbständiger Ingenieur entwickelt habe.',
@@ -116,14 +116,16 @@
 		'C# Projects',
 		'JavaScript Projects',
 		'C & C++ Projects',
-		'Java Projects'
+		'Java Projects',
+		'FreeCodeCamp Projects'
 	];
 	let otherFoldersDE = [
 		'AWS Labs',
 		'C# Projekte',
 		'JavaScript Projekte',
 		'C & C++ Projekte',
-		'Java Projekte'
+		'Java Projekte',
+		'FreeCodeCamp Projekte'
 	];
 	let selectedFolder: string = '';
 
