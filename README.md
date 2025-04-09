@@ -1,38 +1,31 @@
-# sv
+# 🌐 Personal Website
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
+This is the source code and content for my personal website, built to showcase my professional background, share my work, and write about topics that matter to me. The site is structured around three main sections:
 
-## Creating a project
+### 📄 Resume
 
-If you're seeing this, you've probably already done this step. Congrats!
+A comprehensive overview of my professional and academic background:
+-	Work experience
+-	University degrees
+-	Certifications
+-	Contact information
 
-```bash
-# create a new project in the current directory
-npx sv create
+Link: https://github.com/dlblak03/daltonlblake/blob/main/src/routes/%2Bpage.svelte
 
-# create a new project in my-app
-npx sv create my-app
-```
+### 💻 Projects
 
-## Developing
+A curated collection of my software development work:
+-	Featured Projects: A highlight of selected projects with greater impact or complexity
+-	Other Projects: Additional projects that show the breadth of my experience and learning
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+Link: https://github.com/dlblak03/daltonlblake/tree/main/src/routes/projects
 
-```bash
-npm run dev
+### ✍️ Blog
 
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
+My personal space to share ideas, experiences, and resources:
+-	Technical articles and tutorials
+-	Progress reports and materials related to learning German
+-	Book recommendations and reading insights
+-	Miscellaneous thoughts on tech, productivity, and life
 
-## Building
-
-To create a production version of your app:
-
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
+Link: https://github.com/dlblak03/daltonlblake/tree/main/src/routes/blog
