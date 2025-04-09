@@ -65,8 +65,51 @@
 				status: 'Abgeschlossen',
 				link: 'https://github.com/dlblak03/Condor-Golf-Suite'
 			}
+		},
+		{
+			en: {
+				thumbnail: '/ktomek_white_logo_color_background_horizontal.png',
+				name: 'Ktomek App',
+				description:
+					'The Ktomek App is a custom-built web application developed during my time as a self-employed engineer.',
+				status: 'Completed',
+				link: 'https://github.com/dlblak03/ktomek'
+			},
+			de: {
+				thumbnail: '/ktomek_white_logo_color_background_horizontal.png',
+				name: 'Ktomek Anwendung',
+				description:
+					'Die Ktomek App ist eine maßgeschneiderte Webanwendung, die ich während meiner Zeit als selbständiger Ingenieur entwickelt habe.',
+				status: 'Abgeschlossen',
+				link: 'https://github.com/dlblak03/ktomek'
+			}
+		},
+		{
+			en: {
+				thumbnail: '/favicon.png',
+				name: 'This Website',
+				description:
+					'My personal website including my resume, projects, and blog.',
+				status: 'In Progress',
+				link: 'https://github.com/dlblak03/daltonlblake'
+			},
+			de: {
+				thumbnail: '/favicon.png',
+				name: 'Diese Website',
+				description:
+					'Meine persönliche Website mit meinem Lebenslauf, meinen Projekten und meinem Blog.',
+				status: 'In Arbeit',
+				link: 'https://github.com/dlblak03/daltonlblake'
+			}
 		}
 	];
+	
+	if($language == "EN") {
+		featuredProjects.sort((project: any, projectTwo: any) => { return project.en.name.localeCompare(projectTwo.en.name)})
+	}
+	else if($language == "DE") {
+		featuredProjects.sort((project: any, projectTwo: any) => { return project.de.name.localeCompare(projectTwo.de.name)})
+	}
 
 	let otherFoldersEN = [
 		'AWS Labs',
@@ -182,7 +225,7 @@
 					</p>
 					<button
 						class="primary-button {$dark ? 'dark' : ''}"
-						style="color: {$dark ? 'var(--darktext)' : 'var(--primary)'}; padding: 0; height: 35px;"
+						style="color: {$dark ? 'var(--darktext)' : 'var(--primary)'}; padding: 0; height: 35px; margin-top: auto;"
 					>
 						<a
 							href={project.en.link}
