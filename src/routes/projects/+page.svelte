@@ -307,7 +307,7 @@
 				}}
 			>
 				<ArrowLeft color={$dark ? 'var(--darktext)' : 'var(--primary)'} strokeWidth="1"></ArrowLeft>
-				<p class="row-text" style="color: {$dark ? 'var(--darktext)' : 'auto'}; font-weight: 500;">
+				<p class="row-text" style="color: {$dark ? 'var(--darktext)' : 'var(--primary)'}; font-weight: 500;">
 					{selectedFolder} ({otherProjects.filter((p) => {
 						if ($language == 'EN') return p.en.category == selectedFolder;
 						else if ($language == 'DE') return p.de.category == selectedFolder;
