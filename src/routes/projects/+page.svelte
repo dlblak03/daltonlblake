@@ -2,7 +2,7 @@
 	import { onMount } from 'svelte';
 	import { dark, language } from '../ui_store';
 	import { ArrowLeft, ArrowRight, Folder } from 'lucide-svelte';
-	import otherProjects from './other-projects.json'
+	import otherProjects from './other-projects.json';
 
 	let pageTitle = $language == 'EN' ? 'Projects' : $language == 'DE' ? 'Projekte' : 'Projects';
 
@@ -88,8 +88,7 @@
 			en: {
 				thumbnail: '/favicon.png',
 				name: 'This Website',
-				description:
-					'My personal website including my resume, projects, and blog.',
+				description: 'My personal website including my resume, projects, and blog.',
 				status: 'In Progress',
 				link: 'https://github.com/dlblak03/daltonlblake'
 			},
@@ -103,12 +102,15 @@
 			}
 		}
 	];
-	
-	if($language == "EN") {
-		featuredProjects.sort((project: any, projectTwo: any) => { return project.en.name.localeCompare(projectTwo.en.name)})
-	}
-	else if($language == "DE") {
-		featuredProjects.sort((project: any, projectTwo: any) => { return project.de.name.localeCompare(projectTwo.de.name)})
+
+	if ($language == 'EN') {
+		featuredProjects.sort((project: any, projectTwo: any) => {
+			return project.en.name.localeCompare(projectTwo.en.name);
+		});
+	} else if ($language == 'DE') {
+		featuredProjects.sort((project: any, projectTwo: any) => {
+			return project.de.name.localeCompare(projectTwo.de.name);
+		});
 	}
 
 	let otherFoldersEN = [
@@ -212,7 +214,10 @@
 					class="featured-project-image"
 					style="border-bottom: solid 1px {$dark ? 'var(--darktext)' : 'var(--primary)'}"
 				/>
-				<div class="featured-project-content">
+				<div
+					class="featured-project-content"
+					style="display: flex; flex-direction: column; flex-grow: 1;"
+				>
 					<h3 class="featured-project-title" style="color: {$dark ? 'var(--darktext)' : 'auto'}">
 						{$language == 'EN' ? project.en.name : project.de.name}
 						{#if project.en.status == 'In Progress' || project.de.status == 'In Arbeit'}
@@ -227,7 +232,9 @@
 					</p>
 					<button
 						class="primary-button {$dark ? 'dark' : ''}"
-						style="color: {$dark ? 'var(--darktext)' : 'var(--primary)'}; padding: 0; height: 35px; margin-top: auto;"
+						style="color: {$dark
+							? 'var(--darktext)'
+							: 'var(--primary)'}; padding: 0; height: 35px; margin-top: auto;"
 					>
 						<a
 							href={project.en.link}
@@ -271,9 +278,12 @@
 					<Folder color={$dark ? 'var(--darktext)' : 'var(--primary)'} strokeWidth="1"></Folder>
 					<p
 						class="row-text"
-						style="color: {$dark ? 'var(--darktext)' : 'auto'}; font-weight: 500;"
+						style="color: {$dark ? 'var(--darktext)' : 'var(--primary)'}; font-weight: 500;"
 					>
-						{folder} ({otherProjects.filter((p) => { if($language == "EN") return p.en.category == folder; else return p.de.category == folder}).length})
+						{folder} ({otherProjects.filter((p) => {
+							if ($language == 'EN') return p.en.category == folder;
+							else return p.de.category == folder;
+						}).length})
 					</p>
 					<ArrowRight
 						style="margin-left: auto"
@@ -286,7 +296,9 @@
 		<div
 			class="other-projects-table slide hidden"
 			id="projectsTable"
-			style="border: solid 1px {$dark ? 'var(--darktext)' : 'var(--primary)'}"
+			style="border: solid 1px {$dark
+				? 'var(--darktext)'
+				: 'var(--primary)'}; display: flex; flex-direction: column;"
 		>
 			<button
 				class="go-back-row {$dark ? 'dark' : ''}"
@@ -296,10 +308,68 @@
 			>
 				<ArrowLeft color={$dark ? 'var(--darktext)' : 'var(--primary)'} strokeWidth="1"></ArrowLeft>
 				<p class="row-text" style="color: {$dark ? 'var(--darktext)' : 'auto'}; font-weight: 500;">
-					{selectedFolder} ({otherProjects.filter((p) => { if($language == "EN") return p.en.category == selectedFolder; else return p.de.category == selectedFolder}).length})
+					{selectedFolder} ({otherProjects.filter((p) => {
+						if ($language == 'EN') return p.en.category == selectedFolder;
+						else if ($language == 'DE') return p.de.category == selectedFolder;
+					}).length})
 				</p>
 			</button>
-			<div>
+			<div
+				style="display: flex; align-items: center; gap: 15px; flex-wrap: nowrap; padding: 15px 25px; flex-grow: 1; overflow: auto;"
+			>
+				{#each otherProjects.filter((p: any) => {
+					if ($language == 'EN') return p.en.category == selectedFolder;
+					else if ($language == 'DE') return p.de.category == selectedFolder;
+				}) as project}
+					<div
+						class="featured-project-card"
+						style="border: solid 1px {$dark ? 'var(--darktext)' : 'var(--primary)'}; height: 100%;"
+					>
+						<img
+							src={$language == 'EN' ? project.en.thumbnail : project.de.thumbnail}
+							alt="Project Thumbnail"
+							class="featured-project-image"
+							style="border-bottom: solid 1px {$dark ? 'var(--darktext)' : 'var(--primary)'}"
+						/>
+						<div
+							class="featured-project-content"
+							style="height: 100%; display: flex; flex-direction: column;"
+						>
+							<h3
+								class="featured-project-title"
+								style="color: {$dark ? 'var(--darktext)' : 'auto'}"
+							>
+								{$language == 'EN' ? project.en.name : project.de.name}
+							</h3>
+							<p
+								class="featured-project-description"
+								style="color: {$dark ? 'var(--darktext)' : 'auto'}"
+							>
+								{$language == 'EN' ? project.en.description : project.de.description}
+							</p>
+							<button
+								class="primary-button {$dark ? 'dark' : ''}"
+								style="color: {$dark
+									? 'var(--darktext)'
+									: 'var(--primary)'}; padding: 0; height: 35px; margin-top: auto;"
+							>
+								<a
+									href={project.en.link}
+									target="_blank"
+									style="color: {$dark
+										? 'var(--darktext)'
+										: 'var(--primary)'}; text-decoration: none; padding: 10px 10px;"
+								>
+									{#if $language == 'EN'}
+										View on GitHub
+									{:else if $language == 'DE'}
+										Ansicht auf GitHub
+									{/if}
+								</a>
+							</button>
+						</div>
+					</div>
+				{/each}
 			</div>
 		</div>
 	</div>

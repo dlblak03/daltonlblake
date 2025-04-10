@@ -4,12 +4,14 @@
             "category": "AWS Labs",
             "name": "Build a Serverless Web Application",
             "description": "Completed the lab to practice building a web app using Lambda, API Gateway, S3, DynamoDB, and S3.",
+            "thumbnail": "/computer.jpg",
             "link": "https://github.com/dlblak03/AWS-Labs/tree/master/Build-a-Serverless-Web-Application"
         },
         "de": {
             "category": "AWS Labs",
             "name": "Erstellen einer serverlosen Webanwendung",
             "description": "Projekt abgeschlossen, um die Erstellung einer Webanwendung mit Lambda, API Gateway, S3, DynamoDB und S3 zu üben.",
+            "thumbnail": "/computer.jpg",
             "link": "https://github.com/dlblak03/AWS-Labs/tree/master/Build-a-Serverless-Web-Application"
         }
     },
@@ -18,704 +20,884 @@
             "category": "AWS Labs",
             "name": "React Application",
             "description": "Completed lab to practice React skills and to understand AWS Amplify.",
+            "thumbnail": "/computer.jpg",
             "link": "https://github.com/dlblak03/AWS-Labs/tree/master/React-Application"
         },
         "de": {
             "category": "AWS Labs",
             "name": "React Anwendung",
             "description": "Abgeschlossenes Projekt zum Üben von React-Kenntnissen und zum Verständnis von AWS Amplify.",
+            "thumbnail": "/computer.jpg",
             "link": "https://github.com/dlblak03/AWS-Labs/tree/master/React-Application"
         }
     },
 
-
     {
         "en": {
-            "category": "JavaScript Projects",
-            "name": "",
+            "category": "FreeCodeCamp Projects",
+            "name": "Celestial Bodies RDB",
             "description": "",
-            "link": ""
+            "thumbnail": "/computer.jpg",
+            "link": "https://github.com/dlblak03/freecodecamp_cbrdb/tree/main"
         },
         "de": {
-            "category": "JavaScript Projekte",
-            "name": "",
+            "category": "FreeCodeCamp Projekte",
+            "name": "Himmelskörper RDB",
             "description": "",
-            "link": ""
+            "thumbnail": "/computer.jpg",
+            "link": "https://github.com/dlblak03/freecodecamp_cbrdb/tree/main"
         }
     },
     {
         "en": {
-            "category": "JavaScript Projects",
-            "name": "",
+            "category": "FreeCodeCamp Projects",
+            "name": "Salon RDB",
             "description": "",
-            "link": ""
+            "thumbnail": "/computer.jpg",
+            "link": "https://github.com/dlblak03/freecodecamp_sasrdb"
         },
         "de": {
-            "category": "JavaScript Projekte",
-            "name": "",
+            "category": "FreeCodeCamp Projekte",
+            "name": "Salon RDB",
             "description": "",
-            "link": ""
+            "thumbnail": "/computer.jpg",
+            "link": "https://github.com/dlblak03/freecodecamp_sasrdb"
         }
     },
     {
         "en": {
-            "category": "JavaScript Projects",
-            "name": "",
+            "category": "FreeCodeCamp Projects",
+            "name": "Periodic Table RDB",
             "description": "",
-            "link": ""
+            "thumbnail": "/computer.jpg",
+            "link": "https://github.com/dlblak03/freecodecamp_ptrdb"
         },
         "de": {
-            "category": "JavaScript Projekte",
-            "name": "",
+            "category": "FreeCodeCamp Projekte",
+            "name": "Periodensystem RDB",
             "description": "",
-            "link": ""
+            "thumbnail": "/computer.jpg",
+            "link": "https://github.com/dlblak03/freecodecamp_ptrdb"
         }
     },
     {
         "en": {
-            "category": "JavaScript Projects",
-            "name": "",
+            "category": "FreeCodeCamp Projects",
+            "name": "World Cup RDB",
             "description": "",
-            "link": ""
+            "thumbnail": "/computer.jpg",
+            "link": "https://github.com/dlblak03/freecodecamp_wcrdb"
         },
         "de": {
-            "category": "JavaScript Projekte",
-            "name": "",
+            "category": "FreeCodeCamp Projekte",
+            "name": "Weltmeisterschaft RDB",
             "description": "",
-            "link": ""
-        }
-    },
-
-    {
-        "en": {
-            "category": "C# Projects",
-            "name": "",
-            "description": "",
-            "link": ""
-        },
-        "de": {
-            "category": "C# Projekte",
-            "name": "",
-            "description": "",
-            "link": ""
+            "thumbnail": "/computer.jpg",
+            "link": "https://github.com/dlblak03/freecodecamp_wcrdb"
         }
     },
     {
         "en": {
-            "category": "C# Projects",
-            "name": "",
+            "category": "FreeCodeCamp Projects",
+            "name": "Number Guess RDB",
             "description": "",
-            "link": ""
+            "thumbnail": "/computer.jpg",
+            "link": "https://github.com/dlblak03/freecodecamp_grdb"
         },
         "de": {
-            "category": "C# Projekte",
-            "name": "",
+            "category": "FreeCodeCamp Projekte",
+            "name": "Nummer Raten RDB",
             "description": "",
-            "link": ""
-        }
-    },
-    {
-        "en": {
-            "category": "C# Projects",
-            "name": "",
-            "description": "",
-            "link": ""
-        },
-        "de": {
-            "category": "C# Projekte",
-            "name": "",
-            "description": "",
-            "link": ""
-        }
-    },
-    {
-        "en": {
-            "category": "C# Projects",
-            "name": "",
-            "description": "",
-            "link": ""
-        },
-        "de": {
-            "category": "C# Projekte",
-            "name": "",
-            "description": "",
-            "link": ""
-        }
-    },
-    {
-        "en": {
-            "category": "C# Projects",
-            "name": "",
-            "description": "",
-            "link": ""
-        },
-        "de": {
-            "category": "C# Projekte",
-            "name": "",
-            "description": "",
-            "link": ""
-        }
-    },
-    {
-        "en": {
-            "category": "C# Projects",
-            "name": "",
-            "description": "",
-            "link": ""
-        },
-        "de": {
-            "category": "C# Projekte",
-            "name": "",
-            "description": "",
-            "link": ""
+            "thumbnail": "/computer.jpg",
+            "link": "https://github.com/dlblak03/freecodecamp_grdb"
         }
     },
 
     {
         "en": {
-            "category": "C & C++ Projects",
-            "name": "",
+            "category": "JavaScript Projects",
+            "name": "Array of multiples",
             "description": "",
-            "link": ""
+            "thumbnail": "/computer.jpg",
+            "link": "https://github.com/dlblak03/JavaScript-Projects/blob/master/Array%20of%20Multiples.html"
+        },
+        "de": {
+            "category": "JavaScript Projekte",
+            "name": "Array von Vielfachen",
+            "description": "",
+            "thumbnail": "/computer.jpg",
+            "link": "https://github.com/dlblak03/JavaScript-Projects/blob/master/Array%20of%20Multiples.html"
+        }
+    },
+    {
+        "en": {
+            "category": "JavaScript Projects",
+            "name": "Find Min and Max",
+            "description": "",
+            "thumbnail": "/computer.jpg",
+            "link": "https://github.com/dlblak03/JavaScript-Projects/blob/master/Find%20Min%20and%20Max.html"
+        },
+        "de": {
+            "category": "JavaScript Projekte",
+            "name": "Min und Max finden",
+            "description": "",
+            "thumbnail": "/computer.jpg",
+            "link": "https://github.com/dlblak03/JavaScript-Projects/blob/master/Find%20Min%20and%20Max.html"
+        }
+    },
+    {
+        "en": {
+            "category": "JavaScript Projects",
+            "name": "The Convience Store",
+            "description": "",
+            "thumbnail": "/computer.jpg",
+            "link": "https://github.com/dlblak03/JavaScript-Projects/blob/master/The%20Convience%20Store.html"
+        },
+        "de": {
+            "category": "JavaScript Projekte",
+            "name": "Der Convience Store",
+            "description": "",
+            "thumbnail": "/computer.jpg",
+            "link": "https://github.com/dlblak03/JavaScript-Projects/blob/master/The%20Convience%20Store.html"
+        }
+    },
+    {
+        "en": {
+            "category": "JavaScript Projects",
+            "name": "The Farm Problem",
+            "description": "",
+            "thumbnail": "/computer.jpg",
+            "link": "https://github.com/dlblak03/JavaScript-Projects/blob/master/The%20Farm%20Problem.html"
+        },
+        "de": {
+            "category": "JavaScript Projekte",
+            "name": "Das Problem der Farm",
+            "description": "",
+            "thumbnail": "/computer.jpg",
+            "link": "https://github.com/dlblak03/JavaScript-Projects/blob/master/The%20Farm%20Problem.html"
+        }
+    },
+
+    {
+        "en": {
+            "category": "C# Projects",
+            "name": "Traveling Salesman Solution #1",
+            "description": "",
+            "thumbnail": "/computer.jpg",
+            "link": "https://github.com/dlblak03/CSharp-Projects/tree/master/Project1_Source_Code"
+        },
+        "de": {
+            "category": "C# Projekte",
+            "name": "Lösung Nr. 1 für den reisenden Handelsvertreter",
+            "description": "",
+            "thumbnail": "/computer.jpg",
+            "link": "https://github.com/dlblak03/CSharp-Projects/tree/master/Project1_Source_Code"
+        }
+    },
+    {
+        "en": {
+            "category": "C# Projects",
+            "name": "Traveling Salesman Solution #2",
+            "description": "",
+            "thumbnail": "/computer.jpg",
+            "link": "https://github.com/dlblak03/CSharp-Projects/tree/master/Project2_Source_Code"
+        },
+        "de": {
+            "category": "C# Projekte",
+            "name": "Lösung Nr. 2 für den reisenden Handelsvertreter",
+            "description": "",
+            "thumbnail": "/computer.jpg",
+            "link": "https://github.com/dlblak03/CSharp-Projects/tree/master/Project2_Source_Code"
+        }
+    },
+    {
+        "en": {
+            "category": "C# Projects",
+            "name": "Traveling Salesman Solution #3",
+            "description": "",
+            "thumbnail": "/computer.jpg",
+            "link": "https://github.com/dlblak03/CSharp-Projects/tree/master/Project3_Source_Code"
+        },
+        "de": {
+            "category": "C# Projekte",
+            "name": "Lösung Nr. 3 für den reisenden Handelsvertreter",
+            "description": "",
+            "thumbnail": "/computer.jpg",
+            "link": "https://github.com/dlblak03/CSharp-Projects/tree/master/Project3_Source_Code"
+        }
+    },
+    {
+        "en": {
+            "category": "C# Projects",
+            "name": "Traveling Salesman Solution #4",
+            "description": "",
+            "thumbnail": "/computer.jpg",
+            "link": "https://github.com/dlblak03/CSharp-Projects/tree/master/Project4_Source_Code/Project%204"
+        },
+        "de": {
+            "category": "C# Projekte",
+            "name": "Lösung Nr. 4 für den reisenden Handelsvertreter",
+            "description": "",
+            "thumbnail": "/computer.jpg",
+            "link": "https://github.com/dlblak03/CSharp-Projects/tree/master/Project4_Source_Code/Project%204"
+        }
+    },
+    {
+        "en": {
+            "category": "C# Projects",
+            "name": "Traveling Salesman Solution #5",
+            "description": "",
+            "thumbnail": "/computer.jpg",
+            "link": "https://github.com/dlblak03/CSharp-Projects/tree/master/Project5_Source_Code"
+        },
+        "de": {
+            "category": "C# Projekte",
+            "name": "Lösung Nr. 5 für den reisenden Handelsvertreter",
+            "description": "",
+            "thumbnail": "/computer.jpg",
+            "link": "https://github.com/dlblak03/CSharp-Projects/tree/master/Project5_Source_Code"
+        }
+    },
+    {
+        "en": {
+            "category": "C# Projects",
+            "name": "Traveling Salesman Solution #6 - Genetic Algorithm + Wisdom of Crowds",
+            "description": "",
+            "thumbnail": "/computer.jpg",
+            "link": "https://github.com/dlblak03/CSharp-Projects/tree/master/Project6"
+        },
+        "de": {
+            "category": "C# Projekte",
+            "name": "Traveling Salesman Lösung #6 - Genetischer Algorithmus + Weisheit der Massen",
+            "description": "",
+            "thumbnail": "/computer.jpg",
+            "link": "https://github.com/dlblak03/CSharp-Projects/tree/master/Project6"
+        }
+    },
+
+    {
+        "en": {
+            "category": "C & C++ Projects",
+            "name": "ASCII Art",
+            "description": "",
+            "thumbnail": "/computer.jpg",
+            "link": "https://github.com/dlblak03/C-and-CPP-Projects/blob/master/ASCII%20Art.c"
         },
         "de": {
             "category": "C & C++ Projekte",
-            "name": "",
+            "name": "ASCII Kunst",
             "description": "",
-            "link": ""
+            "thumbnail": "/computer.jpg",
+            "link": "https://github.com/dlblak03/C-and-CPP-Projects/blob/master/ASCII%20Art.c"
         }
     },
     {
         "en": {
             "category": "C & C++ Projects",
-            "name": "",
+            "name": "Calculator with Extra Functions",
             "description": "",
-            "link": ""
+            "thumbnail": "/computer.jpg",
+            "link": "https://github.com/dlblak03/C-and-CPP-Projects/blob/master/Calculator%20with%20Extra%20Functions.c"
         },
         "de": {
             "category": "C & C++ Projekte",
-            "name": "",
+            "name": "Rechner mit Extra Funktionen",
             "description": "",
-            "link": ""
+            "thumbnail": "/computer.jpg",
+            "link": "https://github.com/dlblak03/C-and-CPP-Projects/blob/master/Calculator%20with%20Extra%20Functions.c"
         }
     },
     {
         "en": {
             "category": "C & C++ Projects",
-            "name": "",
+            "name": "Calculator",
             "description": "",
-            "link": ""
+            "thumbnail": "/computer.jpg",
+            "link": "https://github.com/dlblak03/C-and-CPP-Projects/blob/master/Calculator.c"
         },
         "de": {
             "category": "C & C++ Projekte",
-            "name": "",
+            "name": "Rechner",
             "description": "",
-            "link": ""
+            "thumbnail": "/computer.jpg",
+            "link": "https://github.com/dlblak03/C-and-CPP-Projects/blob/master/Calculator.c"
         }
     },
     {
         "en": {
             "category": "C & C++ Projects",
-            "name": "",
+            "name": "Currency Conversion",
             "description": "",
-            "link": ""
+            "thumbnail": "/computer.jpg",
+            "link": "https://github.com/dlblak03/C-and-CPP-Projects/blob/master/Currency%20Conversion.c"
         },
         "de": {
             "category": "C & C++ Projekte",
-            "name": "",
+            "name": "Währungsumrechnung",
             "description": "",
-            "link": ""
+            "thumbnail": "/computer.jpg",
+            "link": "https://github.com/dlblak03/C-and-CPP-Projects/blob/master/Currency%20Conversion.c"
         }
     },
     {
         "en": {
             "category": "C & C++ Projects",
-            "name": "",
+            "name": "Display Snake Matrix",
             "description": "",
-            "link": ""
+            "thumbnail": "/computer.jpg",
+            "link": "https://github.com/dlblak03/C-and-CPP-Projects/blob/master/Display%20Snake%20Matrix.c"
         },
         "de": {
             "category": "C & C++ Projekte",
-            "name": "",
+            "name": "Anzeige der Schlangenmatrix",
             "description": "",
-            "link": ""
+            "thumbnail": "/computer.jpg",
+            "link": "https://github.com/dlblak03/C-and-CPP-Projects/blob/master/Display%20Snake%20Matrix.c"
         }
     },
     {
         "en": {
             "category": "C & C++ Projects",
-            "name": "",
+            "name": "Euclidean Algorithm",
             "description": "",
-            "link": ""
+            "thumbnail": "/computer.jpg",
+            "link": "https://github.com/dlblak03/C-and-CPP-Projects/blob/master/EuclideanAlgorithm.cpp"
         },
         "de": {
             "category": "C & C++ Projekte",
-            "name": "",
+            "name": "Euclidean Algorithmus",
             "description": "",
-            "link": ""
+            "thumbnail": "/computer.jpg",
+            "link": "https://github.com/dlblak03/C-and-CPP-Projects/blob/master/EuclideanAlgorithm.cpp"
         }
     },
     {
         "en": {
             "category": "C & C++ Projects",
-            "name": "",
+            "name": "GPA Calculator",
             "description": "",
-            "link": ""
+            "thumbnail": "/computer.jpg",
+            "link": "https://github.com/dlblak03/C-and-CPP-Projects/blob/master/GPA%20Calculator.cpp"
         },
         "de": {
             "category": "C & C++ Projekte",
-            "name": "",
+            "name": "GPA Rechner",
             "description": "",
-            "link": ""
+            "thumbnail": "/computer.jpg",
+            "link": "https://github.com/dlblak03/C-and-CPP-Projects/blob/master/GPA%20Calculator.cpp"
         }
     },
     {
         "en": {
             "category": "C & C++ Projects",
-            "name": "",
+            "name": "Multiples",
             "description": "",
-            "link": ""
+            "thumbnail": "/computer.jpg",
+            "link": "https://github.com/dlblak03/C-and-CPP-Projects/blob/master/Multiples.cpp"
         },
         "de": {
             "category": "C & C++ Projekte",
-            "name": "",
+            "name": "Mehrfache",
             "description": "",
-            "link": ""
+            "thumbnail": "/computer.jpg",
+            "link": "https://github.com/dlblak03/C-and-CPP-Projects/blob/master/Multiples.cpp"
         }
     },
     {
         "en": {
             "category": "C & C++ Projects",
-            "name": "",
+            "name": "Phonebook",
             "description": "",
-            "link": ""
+            "thumbnail": "/computer.jpg",
+            "link": "https://github.com/dlblak03/C-and-CPP-Projects/blob/master/Phonebook.c"
         },
         "de": {
             "category": "C & C++ Projekte",
-            "name": "",
+            "name": "Telefonbuch",
             "description": "",
-            "link": ""
+            "thumbnail": "/computer.jpg",
+            "link": "https://github.com/dlblak03/C-and-CPP-Projects/blob/master/Phonebook.c"
         }
     },
     {
         "en": {
             "category": "C & C++ Projects",
-            "name": "",
+            "name": "Postfix Evaluator",
             "description": "",
-            "link": ""
+            "thumbnail": "/computer.jpg",
+            "link": "https://github.com/dlblak03/C-and-CPP-Projects/blob/master/PostfixEvaluator.cpp"
         },
         "de": {
             "category": "C & C++ Projekte",
-            "name": "",
+            "name": "Postfix-Auswerter",
             "description": "",
-            "link": ""
+            "thumbnail": "/computer.jpg",
+            "link": "https://github.com/dlblak03/C-and-CPP-Projects/blob/master/PostfixEvaluator.cpp"
         }
     },
     {
         "en": {
             "category": "C & C++ Projects",
-            "name": "",
+            "name": "Random Story Generator",
             "description": "",
-            "link": ""
+            "thumbnail": "/computer.jpg",
+            "link": "https://github.com/dlblak03/C-and-CPP-Projects/blob/master/Random%20Story%20Generator.c"
         },
         "de": {
             "category": "C & C++ Projekte",
-            "name": "",
+            "name": "Zufallsgenerator für Geschichten",
             "description": "",
-            "link": ""
+            "thumbnail": "/computer.jpg",
+            "link": "https://github.com/dlblak03/C-and-CPP-Projects/blob/master/Random%20Story%20Generator.c"
         }
     },
     {
         "en": {
             "category": "C & C++ Projects",
-            "name": "",
+            "name": "Reverse Number",
             "description": "",
-            "link": ""
+            "thumbnail": "/computer.jpg",
+            "link": "https://github.com/dlblak03/C-and-CPP-Projects/blob/master/Reverse%20Number.cpp"
         },
         "de": {
             "category": "C & C++ Projekte",
-            "name": "",
+            "name": "Umgekehrte Nummer",
             "description": "",
-            "link": ""
+            "thumbnail": "/computer.jpg",
+            "link": "https://github.com/dlblak03/C-and-CPP-Projects/blob/master/Reverse%20Number.cpp"
         }
     },
     {
         "en": {
             "category": "C & C++ Projects",
-            "name": "",
+            "name": "Summation Calculator",
             "description": "",
-            "link": ""
+            "thumbnail": "/computer.jpg",
+            "link": "https://github.com/dlblak03/C-and-CPP-Projects/blob/master/Summation%20Calculator.cpp"
         },
         "de": {
             "category": "C & C++ Projekte",
-            "name": "",
+            "name": "Summationsrechner",
             "description": "",
-            "link": ""
+            "thumbnail": "/computer.jpg",
+            "link": "https://github.com/dlblak03/C-and-CPP-Projects/blob/master/Summation%20Calculator.cpp"
         }
     },
     {
         "en": {
             "category": "C & C++ Projects",
-            "name": "",
+            "name": "Temperature Conversion",
             "description": "",
-            "link": ""
+            "thumbnail": "/computer.jpg",
+            "link": "https://github.com/dlblak03/C-and-CPP-Projects/blob/master/Temperature%20Conversion.cpp"
         },
         "de": {
             "category": "C & C++ Projekte",
-            "name": "",
+            "name": "Temperatur-Umrechnung",
             "description": "",
-            "link": ""
+            "thumbnail": "/computer.jpg",
+            "link": "https://github.com/dlblak03/C-and-CPP-Projects/blob/master/Temperature%20Conversion.cpp"
         }
     },
     {
         "en": {
             "category": "C & C++ Projects",
-            "name": "",
+            "name": "Tic Tac Toe",
             "description": "",
-            "link": ""
+            "thumbnail": "/computer.jpg",
+            "link": "https://github.com/dlblak03/C-and-CPP-Projects/blob/master/Tic%20Tac%20Toe.cpp"
         },
         "de": {
             "category": "C & C++ Projekte",
-            "name": "",
+            "name": "Tic Tac Toe",
             "description": "",
-            "link": ""
+            "thumbnail": "/computer.jpg",
+            "link": "https://github.com/dlblak03/C-and-CPP-Projects/blob/master/Tic%20Tac%20Toe.cpp"
         }
     },
 
     {
         "en": {
             "category": "Java Projects",
-            "name": "",
+            "name": "Binary Number",
             "description": "",
-            "link": ""
+            "thumbnail": "/computer.jpg",
+            "link": "https://github.com/dlblak03/Java-Projects/blob/master/BinaryNumber.java"
         },
         "de": {
             "category": "Java Projekte",
-            "name": "",
+            "name": "Binäre Zahl",
             "description": "",
-            "link": ""
+            "thumbnail": "/computer.jpg",
+            "link": "https://github.com/dlblak03/Java-Projects/blob/master/BinaryNumber.java"
         }
     },
     {
         "en": {
             "category": "Java Projects",
-            "name": "",
+            "name": "Binary Number Tester",
             "description": "",
-            "link": ""
+            "thumbnail": "/computer.jpg",
+            "link": "https://github.com/dlblak03/Java-Projects/blob/master/BinaryNumberTester.java"
         },
         "de": {
             "category": "Java Projekte",
-            "name": "",
+            "name": "Binärzahl-Tester",
             "description": "",
-            "link": ""
+            "thumbnail": "/computer.jpg",
+            "link": "https://github.com/dlblak03/Java-Projects/blob/master/BinaryNumberTester.java"
         }
     },
     {
         "en": {
             "category": "Java Projects",
-            "name": "",
+            "name": "CCurveFractal",
             "description": "",
-            "link": ""
+            "thumbnail": "/computer.jpg",
+            "link": "https://github.com/dlblak03/Java-Projects/blob/master/CCurveFractal.java"
         },
         "de": {
             "category": "Java Projekte",
-            "name": "",
+            "name": "CCurveFractal",
             "description": "",
-            "link": ""
+            "thumbnail": "/computer.jpg",
+            "link": "https://github.com/dlblak03/Java-Projects/blob/master/CCurveFractal.java"
         }
     },
     {
         "en": {
             "category": "Java Projects",
-            "name": "",
+            "name": "CCurvePane",
             "description": "",
-            "link": ""
+            "thumbnail": "/computer.jpg",
+            "link": "https://github.com/dlblak03/Java-Projects/blob/master/CCurvePane.java"
         },
         "de": {
             "category": "Java Projekte",
-            "name": "",
+            "name": "CCurvePane",
             "description": "",
-            "link": ""
+            "thumbnail": "/computer.jpg",
+            "link": "https://github.com/dlblak03/Java-Projects/blob/master/CCurvePane.java"
         }
     },
     {
         "en": {
             "category": "Java Projects",
-            "name": "",
+            "name": "Circles",
             "description": "",
-            "link": ""
+            "thumbnail": "/computer.jpg",
+            "link": "https://github.com/dlblak03/Java-Projects/blob/master/Circles.java"
         },
         "de": {
             "category": "Java Projekte",
-            "name": "",
+            "name": "Kreise",
             "description": "",
-            "link": ""
+            "thumbnail": "/computer.jpg",
+            "link": "https://github.com/dlblak03/Java-Projects/blob/master/Circles.java"
         }
     },
     {
         "en": {
             "category": "Java Projects",
-            "name": "",
+            "name": "College Course",
             "description": "",
-            "link": ""
+            "thumbnail": "/computer.jpg",
+            "link": "https://github.com/dlblak03/Java-Projects/blob/master/CollegeCourse.java"
         },
         "de": {
             "category": "Java Projekte",
-            "name": "",
+            "name": "Uni Unterricht",
             "description": "",
-            "link": ""
+            "thumbnail": "/computer.jpg",
+            "link": "https://github.com/dlblak03/Java-Projects/blob/master/CollegeCourse.java"
         }
     },
     {
         "en": {
             "category": "Java Projects",
-            "name": "",
+            "name": "Contact",
             "description": "",
-            "link": ""
+            "thumbnail": "/computer.jpg",
+            "link": "https://github.com/dlblak03/Java-Projects/blob/master/Contact.java"
         },
         "de": {
             "category": "Java Projekte",
-            "name": "",
+            "name": "Kontakt",
             "description": "",
-            "link": ""
+            "thumbnail": "/computer.jpg",
+            "link": "https://github.com/dlblak03/Java-Projects/blob/master/Contact.java"
         }
     },
     {
         "en": {
             "category": "Java Projects",
-            "name": "",
+            "name": "Contact Builder",
             "description": "",
-            "link": ""
+            "thumbnail": "/computer.jpg",
+            "link": "https://github.com/dlblak03/Java-Projects/blob/master/ContactBuilder.java"
         },
         "de": {
             "category": "Java Projekte",
-            "name": "",
+            "name": "Kontakt Ersteller",
             "description": "",
-            "link": ""
+            "thumbnail": "/computer.jpg",
+            "link": "https://github.com/dlblak03/Java-Projects/blob/master/ContactBuilder.java"
         }
     },
     {
         "en": {
             "category": "Java Projects",
-            "name": "",
+            "name": "Currency Image",
             "description": "",
-            "link": ""
+            "thumbnail": "/computer.jpg",
+            "link": "https://github.com/dlblak03/Java-Projects/blob/master/Currency%20Image.java"
         },
         "de": {
             "category": "Java Projekte",
-            "name": "",
+            "name": "Währungsbild",
             "description": "",
-            "link": ""
+            "thumbnail": "/computer.jpg",
+            "link": "https://github.com/dlblak03/Java-Projects/blob/master/Currency%20Image.java"
         }
     },
     {
         "en": {
             "category": "Java Projects",
-            "name": "",
+            "name": "Digit Sum",
             "description": "",
-            "link": ""
+            "thumbnail": "/computer.jpg",
+            "link": "https://github.com/dlblak03/Java-Projects/blob/master/DigitSum.java"
         },
         "de": {
             "category": "Java Projekte",
-            "name": "",
+            "name": "Digit Summe",
             "description": "",
-            "link": ""
+            "thumbnail": "/computer.jpg",
+            "link": "https://github.com/dlblak03/Java-Projects/blob/master/DigitSum.java"
         }
     },
     {
         "en": {
             "category": "Java Projects",
-            "name": "",
+            "name": "Digit Sum Client",
             "description": "",
-            "link": ""
+            "thumbnail": "/computer.jpg",
+            "link": "https://github.com/dlblak03/Java-Projects/blob/master/DigitSumClient.java"
         },
         "de": {
             "category": "Java Projekte",
-            "name": "",
+            "name": "Digit Summe Client",
             "description": "",
-            "link": ""
+            "thumbnail": "/computer.jpg",
+            "link": "https://github.com/dlblak03/Java-Projects/blob/master/DigitSumClient.java"
         }
     },
     {
         "en": {
             "category": "Java Projects",
-            "name": "",
+            "name": "Flight Details",
             "description": "",
-            "link": ""
+            "thumbnail": "/computer.jpg",
+            "link": "https://github.com/dlblak03/Java-Projects/blob/master/FlightDetails.java"
         },
         "de": {
             "category": "Java Projekte",
-            "name": "",
+            "name": "Flugdetails",
             "description": "",
-            "link": ""
+            "thumbnail": "/computer.jpg",
+            "link": "https://github.com/dlblak03/Java-Projects/blob/master/FlightDetails.java"
         }
     },
     {
         "en": {
             "category": "Java Projects",
-            "name": "",
+            "name": "Flight Pane",
             "description": "",
-            "link": ""
+            "thumbnail": "/computer.jpg",
+            "link": "https://github.com/dlblak03/Java-Projects/blob/master/FlightPane.java"
         },
         "de": {
             "category": "Java Projekte",
-            "name": "",
+            "name": "Flugpane",
             "description": "",
-            "link": ""
+            "thumbnail": "/computer.jpg",
+            "link": "https://github.com/dlblak03/Java-Projects/blob/master/FlightPane.java"
         }
     },
     {
         "en": {
             "category": "Java Projects",
-            "name": "",
+            "name": "Geometric Shape",
             "description": "",
-            "link": ""
+            "thumbnail": "/computer.jpg",
+            "link": "https://github.com/dlblak03/Java-Projects/blob/master/GeometricShape.java"
         },
         "de": {
             "category": "Java Projekte",
-            "name": "",
+            "name": "Geometrische Form",
             "description": "",
-            "link": ""
+            "thumbnail": "/computer.jpg",
+            "link": "https://github.com/dlblak03/Java-Projects/blob/master/GeometricShape.java"
         }
     },
     {
         "en": {
             "category": "Java Projects",
-            "name": "",
+            "name": "Mouse Odomenter",
             "description": "",
-            "link": ""
+            "thumbnail": "/computer.jpg",
+            "link": "https://github.com/dlblak03/Java-Projects/blob/master/MouseOdomenter.java"
         },
         "de": {
             "category": "Java Projekte",
-            "name": "",
+            "name": "Maus Odomenter",
             "description": "",
-            "link": ""
+            "thumbnail": "/computer.jpg",
+            "link": "https://github.com/dlblak03/Java-Projects/blob/master/MouseOdomenter.java"
         }
     },
     {
         "en": {
             "category": "Java Projects",
-            "name": "",
+            "name": "Parallelepiped",
             "description": "",
-            "link": ""
+            "thumbnail": "/computer.jpg",
+            "link": "https://github.com/dlblak03/Java-Projects/blob/master/Parallelepiped.java"
         },
         "de": {
             "category": "Java Projekte",
-            "name": "",
+            "name": "Parallelepiped",
             "description": "",
-            "link": ""
+            "thumbnail": "/computer.jpg",
+            "link": "https://github.com/dlblak03/Java-Projects/blob/master/Parallelepiped.java"
         }
     },
     {
         "en": {
             "category": "Java Projects",
-            "name": "",
+            "name": "Phone Number Exception",
             "description": "",
-            "link": ""
+            "thumbnail": "/computer.jpg",
+            "link": "https://github.com/dlblak03/Java-Projects/blob/master/PhoneNumberException.java"
         },
         "de": {
             "category": "Java Projekte",
-            "name": "",
+            "name": "Rufnummer Ausnahme",
             "description": "",
-            "link": ""
+            "thumbnail": "/computer.jpg",
+            "link": "https://github.com/dlblak03/Java-Projects/blob/master/PhoneNumberException.java"
         }
     },
     {
         "en": {
             "category": "Java Projects",
-            "name": "",
+            "name": "Shapes Collection",
             "description": "",
-            "link": ""
+            "thumbnail": "/computer.jpg",
+            "link": "https://github.com/dlblak03/Java-Projects/blob/master/ShapesCollection.java"
         },
         "de": {
             "category": "Java Projekte",
-            "name": "",
+            "name": "Formen Kollektion",
             "description": "",
-            "link": ""
+            "thumbnail": "/computer.jpg",
+            "link": "https://github.com/dlblak03/Java-Projects/blob/master/ShapesCollection.java"
         }
     },
     {
         "en": {
             "category": "Java Projects",
-            "name": "",
+            "name": "Sphere",
             "description": "",
-            "link": ""
+            "thumbnail": "/computer.jpg",
+            "link": "https://github.com/dlblak03/Java-Projects/blob/master/Sphere.java"
         },
         "de": {
             "category": "Java Projekte",
-            "name": "",
+            "name": "Sphäre",
             "description": "",
-            "link": ""
+            "thumbnail": "/computer.jpg",
+            "link": "https://github.com/dlblak03/Java-Projects/blob/master/Sphere.java"
         }
     },
     {
         "en": {
             "category": "Java Projects",
-            "name": "",
+            "name": "Student",
             "description": "",
-            "link": ""
+            "thumbnail": "/computer.jpg",
+            "link": "https://github.com/dlblak03/Java-Projects/blob/master/Student.java"
         },
         "de": {
             "category": "Java Projekte",
-            "name": "",
+            "name": "Student/Studentin",
             "description": "",
-            "link": ""
+            "thumbnail": "/computer.jpg",
+            "link": "https://github.com/dlblak03/Java-Projects/blob/master/Student.java"
         }
     },
     {
         "en": {
             "category": "Java Projects",
-            "name": "",
+            "name": "Students Record",
             "description": "",
-            "link": ""
+            "thumbnail": "/computer.jpg",
+            "link": "https://github.com/dlblak03/Java-Projects/blob/master/Students_Record.java"
         },
         "de": {
             "category": "Java Projekte",
-            "name": "",
+            "name": "Studenten Rekord",
             "description": "",
-            "link": ""
+            "thumbnail": "/computer.jpg",
+            "link": "https://github.com/dlblak03/Java-Projects/blob/master/Students_Record.java"
         }
     },
     {
         "en": {
             "category": "Java Projects",
-            "name": "",
+            "name": "Triangle",
             "description": "",
-            "link": ""
+            "thumbnail": "/computer.jpg",
+            "link": "https://github.com/dlblak03/Java-Projects/blob/master/Triangle.java"
         },
         "de": {
             "category": "Java Projekte",
-            "name": "",
+            "name": "Dreieck",
             "description": "",
-            "link": ""
+            "thumbnail": "/computer.jpg",
+            "link": "https://github.com/dlblak03/Java-Projects/blob/master/Triangle.java"
         }
     },
     {
         "en": {
             "category": "Java Projects",
-            "name": "",
+            "name": "Triangle Test",
             "description": "",
-            "link": ""
+            "thumbnail": "/computer.jpg",
+            "link": "https://github.com/dlblak03/Java-Projects/blob/master/TriangleTest.java"
         },
         "de": {
             "category": "Java Projekte",
-            "name": "",
+            "name": "Dreieck Tester",
             "description": "",
-            "link": ""
+            "thumbnail": "/computer.jpg",
+            "link": "https://github.com/dlblak03/Java-Projects/blob/master/TriangleTest.java"
         }
     },
     {
         "en": {
             "category": "Java Projects",
-            "name": "",
+            "name": "URL",
             "description": "",
-            "link": ""
+            "thumbnail": "/computer.jpg",
+            "link": "https://github.com/dlblak03/Java-Projects/blob/master/URL.java"
         },
         "de": {
             "category": "Java Projekte",
-            "name": "",
+            "name": "URL",
             "description": "",
-            "link": ""
+            "thumbnail": "/computer.jpg",
+            "link": "https://github.com/dlblak03/Java-Projects/blob/master/URL.java"
         }
     }
 ]
