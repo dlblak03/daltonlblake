@@ -33,23 +33,6 @@
 	let featuredProjects = [
 		{
 			en: {
-				thumbnail: '/finance_app_generated_image.jpeg',
-				name: 'Multiplatform Finance App',
-				description: 'A SwiftUI Finance App with biometric security and iCloud sync.',
-				status: 'In Progress',
-				link: ''
-			},
-			de: {
-				thumbnail: '/finance_app_generated_image.jpeg',
-				name: 'Multiplattform-Finanz-App',
-				description:
-					'Eine SwiftUI Finanz-App mit biometrischer Sicherheit und iCloud-Synchronisierung.',
-				status: 'In Arbeit',
-				link: ''
-			}
-		},
-		{
-			en: {
 				thumbnail: '/golf_generated_image.jpeg',
 				name: 'Condor Golf Suite',
 				description:
