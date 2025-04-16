@@ -34,21 +34,21 @@ export async function GET() {
         <url>
             <loc>https://daltonblake.de/attributions</loc>
             <lastmod>` + date + `</lastmod>
-            <changefreq>weekly</changefreq>
+            <changefreq>yearly</changefreq>
             <priority>1.0</priority>
         </url>
 
         <url>
             <loc>https://daltonblake.de/impressum</loc>
             <lastmod>` + date + `</lastmod>
-            <changefreq>weekly</changefreq>
+            <changefreq>yearly</changefreq>
             <priority>1.0</priority>
         </url>
 
         <url>
             <loc>https://daltonblake.de/privacy-policy</loc>
             <lastmod>` + date + `</lastmod>
-            <changefreq>weekly</changefreq>
+            <changefreq>yearly</changefreq>
             <priority>1.0</priority>
         </url>
     </urlset>`

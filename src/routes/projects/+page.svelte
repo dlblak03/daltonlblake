@@ -33,7 +33,7 @@
 	let featuredProjects = [
 		{
 			en: {
-				thumbnail: '/golf_generated_image.jpeg',
+				thumbnail: '/golf_generated_image.png',
 				name: 'Condor Golf Suite',
 				description:
 					'An Angular template application to manage a golf course (players, events, tee-sheet, etc.).',
@@ -41,7 +41,7 @@
 				link: 'https://github.com/dlblak03/Condor-Golf-Suite'
 			},
 			de: {
-				thumbnail: '/golf_generated_image.jpeg',
+				thumbnail: '/golf_generated_image.png',
 				name: 'Condor Golf Suite',
 				description:
 					'Eine Angular-Template-Anwendung zur Verwaltung eines Golfplatzes (Spieler, Veranstaltungen, Abschlagsliste, etc.).',

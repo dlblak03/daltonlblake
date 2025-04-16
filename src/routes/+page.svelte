@@ -137,7 +137,7 @@
 			></div>
 			<img
 				class="mobile-image"
-				src="/professional-photo.jpeg"
+				src="/professional-photo.png"
 				alt="Professional"
 				width="300"
 				style="z-index: 2; border-radius: 5px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 6px 16px rgba(0, 0, 0, 0.1);"
