@@ -1,7 +1,7 @@
 {
 	"name": "daltonlblake",
 	"private": true,
-	"version": "0.0.1",
+	"version": "1.0.0",
 	"type": "module",
 	"scripts": {
 		"dev": "vite dev",
@@ -11,7 +11,8 @@
 		"check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
 		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
 		"format": "prettier --write .",
-		"lint": "prettier --check ."
+		"lint": "prettier --check .",
+		"postbuild": "cp static/_headers .netlify/build/_headers"
 	},
 	"devDependencies": {
 		"@sveltejs/adapter-netlify": "^4.4.0",
