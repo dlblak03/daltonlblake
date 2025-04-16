@@ -56,7 +56,7 @@
 				description:
 					'The Ktomek App is a custom-built web application developed during my time as a self-employed engineer.',
 				status: 'Completed',
-				link: 'https://github.com/dlblak03/brands/ktomek'
+				link: 'https://github.com/dlblak03/ktomek'
 			},
 			de: {
 				thumbnail: '/brands/ktomek.png',
@@ -64,7 +64,7 @@
 				description:
 					'Die Ktomek App ist eine maßgeschneiderte Webanwendung, die ich während meiner Zeit als selbständiger Ingenieur entwickelt habe.',
 				status: 'Abgeschlossen',
-				link: 'https://github.com/dlblak03/brands/ktomek'
+				link: 'https://github.com/dlblak03/ktomek'
 			}
 		},
 		{
