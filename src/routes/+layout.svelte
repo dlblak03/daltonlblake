@@ -435,9 +435,9 @@
 				© 2025 Dalton Blake &nbsp;&nbsp;&nbsp;
 			</p>
 			{#if $dark}
-				<a href="https://www.netlify.com">
+				<a href="https://www.netlify.com" target="_blank">
 					<img
-						src="https://www.netlify.com/img/global/badges/netlify-dark.svg"
+						src="/netlify-dark.svg"
 						alt="Deploys by Netlify"
 						height="25"
 					/>
@@ -445,7 +445,7 @@
 			{:else}
 				<a href="https://www.netlify.com" target="_blank">
 					<img
-						src="https://www.netlify.com/img/global/badges/netlify-light.svg"
+						src="/netlify-light.svg"
 						alt="Deploys by Netlify"
 						height="25"
 					/>
