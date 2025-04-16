@@ -755,7 +755,7 @@
 	}
 
 	.social-links a i {
-		color: var(--darktext);
+		color: var(--darktext) !important;
 	}
 
 	.description {
