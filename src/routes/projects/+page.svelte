@@ -76,7 +76,7 @@
 				link: 'https://github.com/dlblak03/daltonlblake'
 			},
 			de: {
-				thumbnail: '/icons/favicon.png',
+				thumbnail: '/icons/favicon.ico',
 				name: 'Diese Website',
 				description:
 					'Meine persönliche Website mit meinem Lebenslauf, meinen Projekten und meinem Blog.',
@@ -526,8 +526,8 @@
 
 	.pulsating-wrapper {
 		position: relative;
-		min-width: 10px;
-		min-height: 10px;
+		min-width: 5px;
+		min-height: 5px;
 		background-color: #28a745;
 		border-radius: 50%;
 		animation: pulse 1.5s infinite;
@@ -539,7 +539,7 @@
 			box-shadow: 0 0 0 0 rgba(40, 167, 69, 0.7);
 		}
 		70% {
-			box-shadow: 0 0 0 15px rgba(40, 167, 69, 0);
+			box-shadow: 0 0 0 7px rgba(40, 167, 69, 0);
 		}
 		100% {
 			box-shadow: 0 0 0 0 rgba(40, 167, 69, 0);

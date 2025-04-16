@@ -9,7 +9,7 @@ const securityHeaders = {
     'Cross-Origin-Opener-Policy': 'same-origin',
     'Cross-Origin-Embedder-Policy': 'cross-origin',
     'Cross-Origin-Resource-Policy': 'cross-origin',
-    'Access-Control-Allow-Origin': '*'
+    'Access-Control-Allow-Origin': 'cross-origin'
 }
 
 export const handle: Handle = async ({ event, resolve }) => {
