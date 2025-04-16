@@ -10,9 +10,25 @@
 	let openLanguageMenu: boolean = false;
 
 	let savestore = false;
+	let doc: Document;
 	$: if (savestore) {
 		setCookie('dark', $dark, 1);
 		setCookieString('language', $language, 1);
+		if (doc) {
+			if ($dark) {
+				doc.body.style.background = 'rgb(20,20,20)';
+			} else {
+				doc.body.style.background = 'rgb(253,253,253)';
+			}
+		}
+	} else {
+		if (doc) {
+			if ($dark) {
+				doc.body.style.background = 'rgb(20,20,20)';
+			} else {
+				doc.body.style.background = 'rgb(253,253,253)';
+			}
+		}
 	}
 
 	onMount(() => {
@@ -26,6 +42,8 @@
 		}
 		$language = languageCookie;
 		savestore = true;
+
+		doc = document;
 
 		return () => {};
 	});
