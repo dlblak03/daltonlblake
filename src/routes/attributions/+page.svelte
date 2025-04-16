@@ -8,6 +8,7 @@
 <svelte:head>
 	<title>Dalton Blake | {pageTitle}</title>
 
+	<meta name="title" content="Dalton Blake | {pageTitle}">
 	<meta
 		name="description"
 		content="Credit and attribution page for Dalton Blake’s website, acknowledging the tools and resources used, including SvelteKit, Lucide, and others."

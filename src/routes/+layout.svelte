@@ -148,7 +148,7 @@
 			{#if $language == 'EN'}
 				<a
 					href="/projects"
-					data-sveltekit-preload-data
+					data-sveltekit-preload-data="hover"
 					style="color: {$dark
 						? 'var(--darktext)'
 						: 'var(--primary)'}; text-decoration: none; padding: 10px 10px;">Projects</a
@@ -156,7 +156,7 @@
 			{:else if $language == 'DE'}
 				<a
 					href="/projects"
-					data-sveltekit-preload-data
+					data-sveltekit-preload-data="hover"
 					style="color: {$dark
 						? 'var(--darktext)'
 						: 'var(--primary)'}; text-decoration: none; padding: 10px 10px;">Projekte</a
@@ -170,7 +170,7 @@
 			{#if $language == 'EN'}
 				<a
 					href="/blog"
-					data-sveltekit-preload-data
+					data-sveltekit-preload-data="hover"
 					style="color: {$dark
 						? 'var(--darktext)'
 						: 'var(--primary)'}; text-decoration: none; padding: 10px 10px;">Blog</a
@@ -178,7 +178,7 @@
 			{:else if $language == 'DE'}
 				<a
 					href="/blog"
-					data-sveltekit-preload-data
+					data-sveltekit-preload-data="hover"
 					style="color: {$dark
 						? 'var(--darktext)'
 						: 'var(--primary)'}; text-decoration: none; padding: 10px 10px;">Blog</a
@@ -308,7 +308,7 @@
 				{#if $language == 'EN'}
 					<a
 						href="/projects"
-						data-sveltekit-preload-data
+						data-sveltekit-preload-data="hover"
 						style="color: {$dark
 							? 'var(--darktext)'
 							: 'var(--primary)'}; text-decoration: none; padding: 10px 10px;">Projects</a
@@ -316,7 +316,7 @@
 				{:else if $language == 'DE'}
 					<a
 						href="/projects"
-						data-sveltekit-preload-data
+						data-sveltekit-preload-data="hover"
 						style="color: {$dark
 							? 'var(--darktext)'
 							: 'var(--primary)'}; text-decoration: none; padding: 10px 10px;">Projekte</a
@@ -330,7 +330,7 @@
 				{#if $language == 'EN'}
 					<a
 						href="/blog"
-						data-sveltekit-preload-data
+						data-sveltekit-preload-data="hover"
 						style="color: {$dark
 							? 'var(--darktext)'
 							: 'var(--primary)'}; text-decoration: none; padding: 10px 10px;">Blog</a
@@ -338,7 +338,7 @@
 				{:else if $language == 'DE'}
 					<a
 						href="/blog"
-						data-sveltekit-preload-data
+						data-sveltekit-preload-data="hover"
 						style="color: {$dark
 							? 'var(--darktext)'
 							: 'var(--primary)'}; text-decoration: none; padding: 10px 10px;">Blog</a
@@ -445,17 +445,19 @@
 			{#if $dark}
 				<a href="https://www.netlify.com" target="_blank">
 					<img
-						src="/netlify-dark.svg"
+						src="/brands/netlify-light.webp"
 						alt="Deploys by Netlify"
 						height="25"
+						width="57"
 					/>
 				</a>
 			{:else}
 				<a href="https://www.netlify.com" target="_blank">
 					<img
-						src="/netlify-light.svg"
+						src="/brands/netlify-dark.webp"
 						alt="Deploys by Netlify"
 						height="25"
+						width="57"
 					/>
 				</a>
 			{/if}

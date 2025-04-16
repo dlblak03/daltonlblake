@@ -5,6 +5,7 @@
 <svelte:head>
 	<title>Dalton Blake | Impressum</title>
 
+	<meta name="title" content="Dalton Blake | Impressum">
 	<meta
 		name="description"
 		content="View Dalton Blake’s Impressum for legal information regarding this personal portfolio website, including contact details and relevant disclaimers."

@@ -2,7 +2,7 @@
 	import { onMount } from 'svelte';
 	import { dark, language } from './ui_store';
 
-	let pageTitle = $language == "EN" ? "Resume" : $language == "DE" ? "Lebenslauf" : "Resume"
+	let pageTitle = $language == 'EN' ? 'Resume' : $language == 'DE' ? 'Lebenslauf' : 'Resume';
 
 	let weAnimationPlayState = 'paused';
 	let edAnimationPlayState = 'paused';
@@ -95,6 +95,7 @@
 <svelte:head>
 	<title>Dalton Blake | {pageTitle}</title>
 
+	<meta name="title" content="Dalton Blake | {pageTitle}" />
 	<meta
 		name="description"
 		content="Explore the portfolio of Dalton Blake, an aspiring software engineer. Learn about his professional experience, projects, and certifications in software development."
@@ -104,23 +105,23 @@
 <!-- Hero  -->
 <div class="hero-container">
 	<div class="content">
-		<h1 class="title" style="color: {$dark ? 'var(--darktext)' : 'black'}">Dalton Blake</h1>
+		<h1 class="title {$dark ? 'dark-text' : 'normal-text'}">Dalton Blake</h1>
 		<div class="social-links">
 			<a
 				href="https://www.linkedin.com/in/daltonblake05/"
 				target="_blank"
-				aria-label="LinkedIn profile"
+				aria-label="LinkedIn Profile"
 			>
 				<i class="fab fa-linkedin fa-xl"></i>
 			</a>
-			<a href="https://github.com/dlblak03" target="_blank" aria-label="GitHub profile">
+			<a href="https://github.com/dlblak03" target="_blank" aria-label="GitHub Profile">
 				<i class="fab fa-github fa-xl"></i>
 			</a>
-			<a href="https://www.xing.com/profile/Dalton_Blake" target="_blank" aria-label="Xing profile">
+			<a href="https://www.xing.com/profile/Dalton_Blake" target="_blank" aria-label="Xing Profile">
 				<i class="fab fa-xing fa-xl"></i>
 			</a>
 		</div>
-		<p class="description" style="color: {$dark ? 'var(--darktext)' : 'black'}">
+		<p class="description {$dark ? 'dark-text' : 'normal-text'}">
 			{#if $language == 'EN'}
 				Heyo, I’m Dalton, aspiring software engineer dedicated to building modern, intuitive
 				applications.
@@ -131,16 +132,14 @@
 		</p>
 	</div>
 	<div class="image-space">
-		<div style="display: flex; position: relative;">
-			<div
-				style="position: absolute; left: -25px; top: -25px; border-radius: 5px; background: #7A0000; height: 100%; width: 100%; z-index: 1;"
-			></div>
+		<div class="inner-image-space">
+			<div class="image-background"></div>
 			<img
-				class="mobile-image"
-				src="/professional-photo.png"
+				class="mobile-image hero-image"
+				src="/other/professional-photo.webp"
 				alt="Professional"
 				width="300"
-				style="z-index: 2; border-radius: 5px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 6px 16px rgba(0, 0, 0, 0.1);"
+				height="400"
 			/>
 		</div>
 	</div>
@@ -148,7 +147,7 @@
 
 <!-- Work Experience  -->
 <div class="work-experience">
-	<h2 style="color: {$dark ? 'var(--darktext)' : 'auto'}">
+	<h2 class={$dark ? 'dark-text' : 'normal-text'}>
 		{#if $language == 'EN'}
 			Work Experience
 		{:else if $language == 'DE'}
@@ -173,7 +172,7 @@
 	<!-- Software Engineer · Ktomek LLC -->
 	<div class="job-container">
 		<div class="job-header">
-			<div style="width: 75%;" class="job-info {$dark ? 'dark-job-info' : ''}">
+			<div class="job-info {$dark ? 'dark-job-info' : ''}">
 				<h3>
 					{#if $language == 'EN'}
 						Software Engineer
@@ -421,33 +420,24 @@
 
 	<!-- More experiences  -->
 	<div class="job-container">
-		<button
-			class="primary-button {$dark ? 'dark' : ''}"
-			style="color: {$dark
-				? 'var(--darktext)'
-				: 'var(--primary)'}; display: flex; align-items: center;"
+		<a
+			class="primary-button a-button {$dark ? 'dark' : ''} {$dark ? 'dark-text' : 'primary-text'}"
+			href="https://www.linkedin.com/in/daltonblake05/"
+			target="_blank"
+			aria-label="LinkedIn profile"
 		>
-			<a
-				style="color: {$dark
-					? 'var(--darktext)'
-					: 'var(--primary)'}; text-decoration: none; width: 100%; height: 35px; display: flex; align-items: center; justify-content: center;"
-				href="https://www.linkedin.com/in/daltonblake05/"
-				target="_blank"
-				aria-label="LinkedIn profile"
-			>
-				{#if $language == 'EN'}
-					Plus four more work experiences
-				{:else if $language == 'DE'}
-					Vier weitere Berufserfahrungen
-				{/if}
-			</a>
-		</button>
+			{#if $language == 'EN'}
+				Plus four more work experiences
+			{:else if $language == 'DE'}
+				Vier weitere Berufserfahrungen
+			{/if}
+		</a>
 	</div>
 </div>
 
 <!-- Education  -->
 <div class="education">
-	<h2 style="color: {$dark ? 'var(--darktext)' : 'auto'}">
+	<h2 class={$dark ? 'dark-text' : 'normal-text'}>
 		{#if $language == 'EN'}
 			Education
 		{:else if $language == 'DE'}
@@ -502,7 +492,7 @@
 					{:else if $language == 'DE'}
 						IT Quality Management
 					{/if}
-					 · Hagen, {#if $language == 'EN'}
+					· Hagen, {#if $language == 'EN'}
 						Germany
 					{:else if $language == 'DE'}
 						Deutschland
@@ -518,7 +508,7 @@
 
 <!-- Certifications  -->
 <div class="certifications">
-	<h2 style="color: {$dark ? 'var(--darktext)' : 'auto'}">
+	<h2 class={$dark ? 'dark-text' : 'normal-text'}>
 		{#if $language == 'EN'}
 			Certifications
 		{:else if $language == 'DE'}
@@ -549,7 +539,13 @@
 			</div>
 			<div class="certification-badge">
 				<a href="https://bcert.me/sqalzkqmt" target="_blank" aria-label="CAL 1™ Badge">
-					<img class="mobile-badge" src="/cal-1-badge.png" alt="CAL 1™ Badge" height="75" />
+					<img
+						class="mobile-badge badge"
+						src="/badges/cal-1-badge.webp"
+						alt="CAL 1™ Badge"
+						height="75"
+						width="75"
+					/>
 				</a>
 			</div>
 		</div>
@@ -564,7 +560,13 @@
 			</div>
 			<div class="certification-badge">
 				<a href="https://bcert.me/sendfcmxe" target="_blank" aria-label="CSD® Badge">
-					<img class="mobile-badge" src="/csd-badge.png" alt="CSD® Badge" height="75" />
+					<img
+						class="mobile-badge badge"
+						src="/badges/csd-badge.webp"
+						alt="CSD® Badge"
+						height="75"
+						width="75"
+					/>
 				</a>
 			</div>
 		</div>
@@ -572,33 +574,24 @@
 
 	<!-- More certifications  -->
 	<div class="certification-container">
-		<button
-			class="primary-button {$dark ? 'dark' : ''}"
-			style="color: {$dark
-				? 'var(--darktext)'
-				: 'var(--primary)'}; display: flex; align-items: center;"
+		<a
+			class="primary-button a-button {$dark ? 'dark' : ''} {$dark ? 'dark-text' : 'primary-text'}"
+			href="https://www.linkedin.com/in/daltonblake05/"
+			target="_blank"
+			aria-label="LinkedIn profile"
 		>
-			<a
-				style="color: {$dark
-					? 'var(--darktext)'
-					: 'var(--primary)'}; text-decoration: none; width: 100%; height: 35px; display: flex; align-items: center; justify-content: center;"
-				href="https://www.linkedin.com/in/daltonblake05/"
-				target="_blank"
-				aria-label="LinkedIn profile"
-			>
-				{#if $language == 'EN'}
-					Plus five more certifications
-				{:else if $language == 'DE'}
-					Fünf weitere Zertifizierungen
-				{/if}
-			</a>
-		</button>
+			{#if $language == 'EN'}
+				Plus five more certifications
+			{:else if $language == 'DE'}
+				Fünf weitere Zertifizierungen
+			{/if}
+		</a>
 	</div>
 </div>
 
 <!-- Contact  -->
 <div class="contact">
-	<h2 style="color: {$dark ? 'var(--darktext)' : 'auto'}">
+	<h2 class={$dark ? 'dark-text' : 'normal-text'}>
 		{#if $language == 'EN'}
 			Contact
 		{:else if $language == 'DE'}
@@ -625,10 +618,10 @@
 		<div class="contact-header">
 			<div class="contact-info {$dark ? 'dark-contact-info' : ''}">
 				<p class="contact-data">
-					<span style="font-weight: bold;">Email:</span>
+					<b>Email:</b>
 					<a
 						href="mailto:contact@daltonblake.de"
-						style="font-weight: 400; color: {$dark ? 'var(--darktext)' : 'black'};"
+						class={$dark ? 'dark-text' : 'normal-text'}
 						>contact@daltonblake.de</a
 					>
 				</p>
@@ -640,27 +633,23 @@
 	<div class="contact-container">
 		<div class="contact-header">
 			<div class="contact-info {$dark ? 'dark-contact-info' : ''}">
-				<div class="contact-data">
+				<div class="contact-data-icons">
 					<a
 						href="https://www.linkedin.com/in/daltonblake05/"
 						target="_blank"
 						aria-label="Linkedin profile"
-						style="margin-right: 15px;"
 					>
 						<i
-							class="fab fa-linkedin fa-xl"
-							style="color: {$dark ? 'var(--darktext)' : 'var(--primary)'}"
+							class="fab fa-linkedin fa-xl {$dark ? 'dark-text' : 'primary-text'}"
 						></i>
 					</a>
 					<a
 						href="https://github.com/dlblak03"
 						target="_blank"
 						aria-label="Github profile"
-						style="margin-right: 15px;"
 					>
 						<i
-							class="fab fa-github fa-xl"
-							style="color: {$dark ? 'var(--darktext)' : 'var(--primary)'}"
+							class="fab fa-github fa-xl {$dark ? 'dark-text' : 'primary-text'}"
 						></i>
 					</a>
 					<a
@@ -669,8 +658,7 @@
 						aria-label="Xing profile"
 					>
 						<i
-							class="fab fa-xing fa-xl"
-							style="color: {$dark ? 'var(--darktext)' : 'var(--primary)'}"
+							class="fab fa-xing fa-xl {$dark ? 'dark-text' : 'primary-text'}"
 						></i>
 					</a>
 				</div>
@@ -680,6 +668,61 @@
 </div>
 
 <style type="text/css">
+	@keyframes slide-in-left {
+		0% {
+			width: 0;
+		}
+
+		to {
+			width: 500px;
+		}
+	}
+
+	@keyframes drop-down {
+		0% {
+			height: 0;
+			margin-left: 5px;
+		}
+
+		to {
+			height: 100%;
+			margin-left: -2px;
+		}
+	}
+
+	@keyframes slide-in-right {
+		0% {
+			margin-left: 100%;
+		}
+
+		to {
+			margin-left: 1px;
+		}
+	}
+
+	.dark-text {
+		color: var(--darktext) !important;
+	}
+
+	.normal-text {
+		color: #000000;
+	}
+
+	.primary-text {
+		color: var(--primary);
+	}
+
+	.a-button {
+		text-decoration: none;
+		width: calc(100% - 20px);
+		height: 35px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		font-weight: 500;
+		font-size: 12px;
+	}
+
 	.hero-container {
 		display: flex;
 		align-items: center;
@@ -725,15 +768,31 @@
 		width: 50%;
 		justify-content: center;
 		display: flex;
+		position: relative;
+	}
+
+	.inner-image-space {
+		display: flex;
+		position: relative;
+	}
+
+	.image-background {
+		position: absolute;
+		left: -25px;
+		top: -25px;
+		border-radius: 5px;
+		background: #7a0000;
+		height: 100%;
+		width: 100%;
+		z-index: 1;
 	}
 
 	@media (max-width: 1024px) {
 		.hero-container {
 			min-height: calc(100vh - 70px);
-			padding: 0 35px;
 			align-items: start;
 			flex-direction: column;
-			padding-bottom: 100px;
+			padding: 0 35px 100px;
 		}
 
 		.title {
@@ -752,27 +811,36 @@
 			width: 100%;
 			padding: 50px 0;
 		}
-	}
 
-	@media (max-width: 1024px) {
 		.hero-container {
 			padding-bottom: 200px;
 		}
 	}
 
+	.hero-image {
+		z-index: 2;
+		border-radius: 5px;
+		box-shadow:
+			0 4px 8px rgba(0, 0, 0, 0.2),
+			0 6px 16px rgba(0, 0, 0, 0.1);
+		width: 300px;
+		height: 400px;
+	}
+
 	@media (max-width: 500px) {
 		.mobile-image {
 			width: 225px;
+			height: 300px;
 		}
 	}
 
 	.primary-button {
-		background: none;
+		background: 0 0;
 		outline: 0;
-		border: none;
+		border: 0;
 		cursor: pointer;
 		font-size: 14px;
-		padding: 10px 10px;
+		padding: 10px;
 		border-radius: 5px;
 	}
 
@@ -784,44 +852,56 @@
 		background: rgba(255, 255, 255, 0.1);
 	}
 
-	.work-experience,
+	.work-experience {
+		padding: 0 75px;
+	}
+
 	.education,
+	.work-experience {
+		display: flex;
+		flex-direction: column;
+		margin-bottom: 75px;
+	}
+
+	.certifications {
+		padding: 0 75px;
+	}
+
 	.certifications,
 	.contact {
 		display: flex;
 		flex-direction: column;
-		padding: 0 75px;
 		margin-bottom: 75px;
 	}
 
 	@media (max-width: 1024px) {
-		.work-experience,
-		.education,
 		.certifications,
-		.contact {
-			padding: 0 25px;
+		.contact,
+		.education,
+		.work-experience {
+			padding: 0 25px !important;
 		}
 
-		.work-experience > h2,
-		.education > h2,
 		.certifications > h2,
-		.contact > h2 {
+		.contact > h2,
+		.education > h2,
+		.work-experience > h2 {
 			font-size: 1.125rem;
 		}
 	}
 
 	.education {
-		padding-bottom: 25px;
+		padding: 0 75px 25px;
 	}
 
 	.contact {
-		padding-bottom: 50px;
+		padding: 0 75px 50px;
 	}
 
-	.we-divider,
-	.ed-divider,
 	.ce-divider,
-	.co-divider {
+	.co-divider,
+	.ed-divider,
+	.we-divider {
 		display: flex;
 		height: 15px;
 	}
@@ -833,17 +913,20 @@
 		margin-right: 3px;
 	}
 
+	.first-line,
+	.last-line {
+		animation-play-state: paused;
+	}
+
 	.first-line {
 		width: 0;
 		animation: slide-in-left 0.5s ease-out forwards;
 		animation-delay: 0s !important;
-		animation-play-state: paused;
 	}
 
 	.last-line {
 		margin-left: 100%;
 		animation: slide-in-right 0.5s ease-out forwards;
-		animation-play-state: paused;
 	}
 
 	.dark-line {
@@ -871,20 +954,12 @@
 		margin-top: 2px;
 	}
 
-	@keyframes slide-in-left {
-		from {
-			width: 0;
-		}
-		to {
-			width: 500px;
-		}
-	}
-
 	@media (max-width: 1024px) {
 		@keyframes slide-in-left {
-			from {
+			0% {
 				width: 0;
 			}
+
 			to {
 				width: 300px;
 			}
@@ -893,129 +968,113 @@
 
 	@media (max-width: 500px) {
 		@keyframes slide-in-left {
-			from {
+			0% {
 				width: 0;
 			}
+
 			to {
 				width: 180px;
 			}
 		}
 	}
 
-	@keyframes drop-down {
-		from {
-			height: 0;
-			margin-left: 5px;
-		}
-		to {
-			height: 100%;
-			margin-left: -2px;
-		}
-	}
-
-	@keyframes slide-in-right {
-		from {
-			margin-left: 100%;
-		}
-		to {
-			margin-left: 1px;
-		}
-	}
-
-	.job-container,
-	.degree-container,
 	.certification-container,
-	.contact-container {
+	.contact-container,
+	.degree-container,
+	.job-container {
 		display: flex;
 		flex-direction: column;
 		margin-top: 50px;
 	}
 
-	.job-header,
-	.degree-header,
 	.certification-header,
-	.contact-header {
+	.contact-header,
+	.degree-header,
+	.job-header {
 		display: flex;
 		width: 100%;
 		justify-content: space-between;
 	}
 
-	.job-dates,
+	.certification-badge,
 	.degree-dates,
-	.certification-badge {
+	.job-dates {
 		text-align: right;
 		font-size: 1.75rem;
 		font-weight: 700;
 		padding-top: 5px;
 	}
 
+	.dark-degree-dates,
+	.dark-degree-dates > *,
 	.dark-job-dates,
-	.dark-degree-dates {
+	.dark-job-dates > * {
 		color: var(--darktext);
 	}
 
-	.dark-job-dates > *,
-	.dark-degree-dates > * {
-		color: var(--darktext);
-	}
-
-	.company,
-	.degree,
 	.certification,
-	.contact-data {
+	.company,
+	.contact-data,
+	.degree {
 		font-size: 1.25rem;
 		font-weight: 300;
 		margin: 0;
-		color: black;
+		color: #000;
 	}
 
 	.contact-data {
-		color: auto;
+		color: #000000;
 	}
 
-	.job-info,
-	.degree-info,
+	.contact-data-icons {
+		display: flex;
+		gap: 15px;
+	}
+
 	.certification-info,
-	.contact-info {
+	.contact-info,
+	.degree-info,
+	.job-info {
 		display: flex;
 		flex-direction: column;
+		width: 75%;
 	}
 
 	@media (max-width: 1024px) {
-		.job-info > h3,
-		.degree-info > h3,
-		.certification-info > h3 {
-			font-size: 1.375rem;
-		}
-
-		.company,
-		.degree,
 		.certification,
-		.contact-data {
+		.company,
+		.contact-data,
+		.degree {
 			font-size: 1rem;
 		}
 
-		.job-dates,
+		.certification-badge,
+		.certification-info > h3,
 		.degree-dates,
-		.certification-badge {
+		.degree-info > h3,
+		.job-dates,
+		.job-info > h3 {
 			font-size: 1.375rem;
 		}
+	}
+
+	.badge {
+		height: 75px;
+		width: 75px;
 	}
 
 	@media (max-width: 500px) {
 		.mobile-badge {
 			height: 65px;
+			width: 65px;
 		}
 	}
 
-	.dark-job-info > *,
-	.dark-degree-info > *,
 	.dark-certification-info > *,
-	.dark-contact-info > * {
-		color: var(--darktext);
-	}
-
-	.dark-job-description > * {
+	.dark-contact-info > *,
+	.dark-degree-info > *,
+	.dark-job-description > *,
+	.dark-job-info > * {
 		color: var(--darktext);
 	}
 

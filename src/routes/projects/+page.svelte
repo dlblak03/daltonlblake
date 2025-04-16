@@ -33,7 +33,7 @@
 	let featuredProjects = [
 		{
 			en: {
-				thumbnail: '/golf_generated_image.png',
+				thumbnail: '/ai-images/golf_generated_image.png',
 				name: 'Condor Golf Suite',
 				description:
 					'An Angular template application to manage a golf course (players, events, tee-sheet, etc.).',
@@ -41,7 +41,7 @@
 				link: 'https://github.com/dlblak03/Condor-Golf-Suite'
 			},
 			de: {
-				thumbnail: '/golf_generated_image.png',
+				thumbnail: '/ai-images/golf_generated_image.png',
 				name: 'Condor Golf Suite',
 				description:
 					'Eine Angular-Template-Anwendung zur Verwaltung eines Golfplatzes (Spieler, Veranstaltungen, Abschlagsliste, etc.).',
@@ -51,32 +51,32 @@
 		},
 		{
 			en: {
-				thumbnail: '/ktomek.png',
+				thumbnail: '/brands/ktomek.png',
 				name: 'Ktomek App',
 				description:
 					'The Ktomek App is a custom-built web application developed during my time as a self-employed engineer.',
 				status: 'Completed',
-				link: 'https://github.com/dlblak03/ktomek'
+				link: 'https://github.com/dlblak03/brands/ktomek'
 			},
 			de: {
-				thumbnail: '/ktomek.png',
+				thumbnail: '/brands/ktomek.png',
 				name: 'Ktomek Anwendung',
 				description:
 					'Die Ktomek App ist eine maßgeschneiderte Webanwendung, die ich während meiner Zeit als selbständiger Ingenieur entwickelt habe.',
 				status: 'Abgeschlossen',
-				link: 'https://github.com/dlblak03/ktomek'
+				link: 'https://github.com/dlblak03/brands/ktomek'
 			}
 		},
 		{
 			en: {
-				thumbnail: '/favicon.png',
+				thumbnail: '/icons/favicon.ico',
 				name: 'This Website',
 				description: 'My personal website including my resume, projects, and blog.',
 				status: 'In Progress',
 				link: 'https://github.com/dlblak03/daltonlblake'
 			},
 			de: {
-				thumbnail: '/favicon.png',
+				thumbnail: '/icons/favicon.png',
 				name: 'Diese Website',
 				description:
 					'Meine persönliche Website mit meinem Lebenslauf, meinen Projekten und meinem Blog.',
@@ -136,6 +136,7 @@
 <svelte:head>
 	<title>Dalton Blake | {pageTitle}</title>
 
+	<meta name="title" content="Dalton Blake | {pageTitle}">
 	<meta
 		name="description"
 		content="Browse the projects by Dalton Blake, showcasing innovative software applications, UI/UX designs, and development expertise. Explore his work in modern web technologies and creative solutions."

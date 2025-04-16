@@ -35,7 +35,7 @@
 			name: 'A2: Deutsch in Alltag und Beruf: Intensivtrainer',
 			publisher: 'Klett Sprachen GmbH',
 			author: 'Ulrike Moritz, Margret Rodi, Lutz Rohrmann',
-			thumbnail: '/a2_intensivtrainer.png',
+			thumbnail: '/german-resources/a2_intensivtrainer.png',
 			progress: 13 / 16,
 			status: 'active'
 		},
@@ -43,7 +43,7 @@
 			name: 'B1: Deutsch in Alltag und Beruf: Intensivtrainer',
 			publisher: 'Klett Sprachen GmbH',
 			author: 'Ulrike Moritz, Margret Rodi, Lutz Rohrmann',
-			thumbnail: '/b1_intensivtrainer.png',
+			thumbnail: '/german-resources/b1_intensivtrainer.png',
 			progress: 8 / 16,
 			status: 'active'
 		},
@@ -51,7 +51,7 @@
 			name: 'Fit fürs Zertifikat B1: Deutschprüfung für Erwachsene',
 			publisher: 'Hueber Verlag',
 			author: 'Johannes Gerbes, Frauke van der Werff',
-			thumbnail: '/b1_deutsch_pruefung_trainer.png',
+			thumbnail: '/german-resources/b1_deutsch_pruefung_trainer.png',
 			progress: 0 / 1,
 			status: 'inactive'
 		}
@@ -87,6 +87,7 @@
 <svelte:head>
 	<title>Dalton Blake | Blog</title>
 
+	<meta name="title" content="Dalton Blake | Blog}">
 	<meta
 		name="description"
 		content="Explore Dalton Blake’s blog, where I share insights, experiences, and thoughts on my current events, hobbies, and technology."
