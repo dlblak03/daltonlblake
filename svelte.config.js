@@ -6,19 +6,7 @@ const config = {
 	preprocess: vitePreprocess(),
 
 	kit: {
-		adapter: adapter({
-			headers: {
-				'/*': {
-					'X-Frame-Options': 'DENY',
-					'X-Content-Type-Options': 'nosniff',
-					'Referrer-Policy': 'strict-origin-when-cross-origin',
-					'Strict-Transport-Security': 'max-age=63072000; includeSubDomains; preload',
-					'Permissions-Policy': 'geolocation=(), camera=(), microphone=()',
-					'Cross-Origin-Opener-Policy': 'same-origin',
-					'Cross-Origin-Embedder-Policy': 'require-corp'
-				}
-			}
-		}),
+		adapter: adapter({}),
 		csp: {
 			directives: {
 				'default-src': ["'self'"],
