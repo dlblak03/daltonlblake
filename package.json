@@ -15,7 +15,7 @@
 		"postbuild": "cp static/_headers .netlify/build/_headers"
 	},
 	"devDependencies": {
-		"@sveltejs/adapter-netlify": "^4.4.0",
+		"@sveltejs/adapter-netlify": "^4.4.2",
 		"@sveltejs/kit": "^2.20.4",
 		"@sveltejs/vite-plugin-svelte": "^5.0.0",
 		"@tailwindcss/vite": "^4.0.0",
