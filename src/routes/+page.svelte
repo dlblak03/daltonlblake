@@ -641,7 +641,6 @@
 					>
 						<i
 							class="fab fa-linkedin fa-xl {$dark ? 'dark-text' : 'primary-text'}"
-							style="color: {$dark ? 'var(--darktext)' : 'var(--primary)'}"
 						></i>
 					</a>
 					<a
