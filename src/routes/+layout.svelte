@@ -30,8 +30,12 @@
 		return () => {};
 	});
 
+	let checkbox: HTMLElement;
 	onNavigate(() => {
-		openNavMenu = false
+		openNavMenu = false;
+		if (checkbox instanceof HTMLInputElement) {
+			checkbox.checked = false;
+		}
 	});
 
 	const toggleDark = async () => {
@@ -262,7 +266,7 @@
 		<div
 			style="min-height: 35px; display: flex; align-items: center; justify-content: center; margin-left: auto;"
 		>
-			<input id="toggle-hamburger" type="checkbox" />
+			<input id="toggle-hamburger" type="checkbox" bind:this={checkbox} />
 			<!-- svelte-ignore a11y_click_events_have_key_events -->
 			<!-- svelte-ignore a11y_no_noninteractive_element_interactions -->
 			<label
