@@ -148,6 +148,7 @@
 			{#if $language == 'EN'}
 				<a
 					href="/projects"
+					data-sveltekit-preload-data
 					style="color: {$dark
 						? 'var(--darktext)'
 						: 'var(--primary)'}; text-decoration: none; padding: 10px 10px;">Projects</a
@@ -155,6 +156,7 @@
 			{:else if $language == 'DE'}
 				<a
 					href="/projects"
+					data-sveltekit-preload-data
 					style="color: {$dark
 						? 'var(--darktext)'
 						: 'var(--primary)'}; text-decoration: none; padding: 10px 10px;">Projekte</a
@@ -168,6 +170,7 @@
 			{#if $language == 'EN'}
 				<a
 					href="/blog"
+					data-sveltekit-preload-data
 					style="color: {$dark
 						? 'var(--darktext)'
 						: 'var(--primary)'}; text-decoration: none; padding: 10px 10px;">Blog</a
@@ -175,6 +178,7 @@
 			{:else if $language == 'DE'}
 				<a
 					href="/blog"
+					data-sveltekit-preload-data
 					style="color: {$dark
 						? 'var(--darktext)'
 						: 'var(--primary)'}; text-decoration: none; padding: 10px 10px;">Blog</a
@@ -304,6 +308,7 @@
 				{#if $language == 'EN'}
 					<a
 						href="/projects"
+						data-sveltekit-preload-data
 						style="color: {$dark
 							? 'var(--darktext)'
 							: 'var(--primary)'}; text-decoration: none; padding: 10px 10px;">Projects</a
@@ -311,6 +316,7 @@
 				{:else if $language == 'DE'}
 					<a
 						href="/projects"
+						data-sveltekit-preload-data
 						style="color: {$dark
 							? 'var(--darktext)'
 							: 'var(--primary)'}; text-decoration: none; padding: 10px 10px;">Projekte</a
@@ -324,6 +330,7 @@
 				{#if $language == 'EN'}
 					<a
 						href="/blog"
+						data-sveltekit-preload-data
 						style="color: {$dark
 							? 'var(--darktext)'
 							: 'var(--primary)'}; text-decoration: none; padding: 10px 10px;">Blog</a
@@ -331,6 +338,7 @@
 				{:else if $language == 'DE'}
 					<a
 						href="/blog"
+						data-sveltekit-preload-data
 						style="color: {$dark
 							? 'var(--darktext)'
 							: 'var(--primary)'}; text-decoration: none; padding: 10px 10px;">Blog</a
