@@ -8,7 +8,7 @@ const securityHeaders = {
     'Permissions-Policy': 'geolocation=(), camera=(), microphone=()',
     'Cross-Origin-Opener-Policy': 'same-origin',
     'Cross-Origin-Embedder-Policy': 'require-corp',
-    'Access-Control-Allow-Origin': '*'
+    'Cross-Origin-Resource-Policy': 'cross-origin'
 }
 
 export const handle: Handle = async ({ event, resolve }) => {
