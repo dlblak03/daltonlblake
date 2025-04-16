@@ -7,7 +7,8 @@ const securityHeaders = {
     'Strict-Transport-Security': 'max-age=63072000; includeSubDomains; preload',
     'Permissions-Policy': 'geolocation=(), camera=(), microphone=()',
     'Cross-Origin-Opener-Policy': 'same-origin',
-    'Cross-Origin-Embedder-Policy': 'require-corp'
+    'Cross-Origin-Embedder-Policy': 'require-corp',
+    'Access-Control-Allow-Origin': '*'
 }
 
 export const handle: Handle = async ({ event, resolve }) => {
