@@ -4,6 +4,7 @@
 	import { dark, language } from './ui_store';
 
 	import { Sun, Moon } from 'lucide-svelte';
+	import { onNavigate } from '$app/navigation';
 
 	let openNavMenu: boolean = false;
 	let openLanguageMenu: boolean = false;
@@ -27,6 +28,10 @@
 		savestore = true;
 
 		return () => {};
+	});
+
+	onNavigate(() => {
+		openNavMenu = false
 	});
 
 	const toggleDark = async () => {
@@ -65,7 +70,7 @@
 </script>
 
 <div
-	style="display: flex; flex-direction: column; height: 100vh; width: 100vw; overflow: auto; background: {$dark
+	style="display: flex; flex-direction: column; min-height: 100vh; background: {$dark
 		? 'rgb(20,20,20)'
 		: 'rgb(253,253,253)'}"
 >
@@ -444,21 +449,11 @@
 			</p>
 			{#if $dark}
 				<a href="https://www.netlify.com" target="_blank">
-					<img
-						src="/brands/netlify-light.webp"
-						alt="Deploys by Netlify"
-						height="25"
-						width="57"
-					/>
+					<img src="/brands/netlify-light.webp" alt="Deploys by Netlify" height="25" width="57" />
 				</a>
 			{:else}
 				<a href="https://www.netlify.com" target="_blank">
-					<img
-						src="/brands/netlify-dark.webp"
-						alt="Deploys by Netlify"
-						height="25"
-						width="57"
-					/>
+					<img src="/brands/netlify-dark.webp" alt="Deploys by Netlify" height="25" width="57" />
 				</a>
 			{/if}
 		</div>

@@ -370,7 +370,7 @@
 		border: solid 1px rgb(220, 220, 220);
 		border-radius: 5px;
 		height: 10px;
-		margin-top: 60px;
+		margin-top: 70px;
 		margin-bottom: 85px;
 		position: relative;
 	}
