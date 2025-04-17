@@ -570,6 +570,11 @@
 		.mobile-h2 {
 			font-size: 1.125rem;
 		}
+
+		.resource-card {
+			max-width: 100vw;
+			flex-grow: 1;
+		}
 	}
 
 	.divider {

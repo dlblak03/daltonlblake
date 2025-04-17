@@ -136,7 +136,7 @@
 <svelte:head>
 	<title>Dalton Blake | {pageTitle}</title>
 
-	<meta name="title" content="Dalton Blake | {pageTitle}">
+	<meta name="title" content="Dalton Blake | {pageTitle}" />
 	<meta
 		name="description"
 		content="Browse the projects by Dalton Blake, showcasing innovative software applications, UI/UX designs, and development expertise. Explore his work in modern web technologies and creative solutions."
@@ -291,7 +291,10 @@
 				}}
 			>
 				<ArrowLeft color={$dark ? 'var(--darktext)' : 'var(--primary)'} strokeWidth="1"></ArrowLeft>
-				<p class="row-text" style="color: {$dark ? 'var(--darktext)' : 'var(--primary)'}; font-weight: 500;">
+				<p
+					class="row-text"
+					style="color: {$dark ? 'var(--darktext)' : 'var(--primary)'}; font-weight: 500;"
+				>
 					{selectedFolder} ({otherProjects.filter((p) => {
 						if ($language == 'EN') return p.en.category == selectedFolder;
 						else if ($language == 'DE') return p.de.category == selectedFolder;
@@ -557,6 +560,11 @@
 
 		.showcase-title {
 			font-size: 1rem;
+		}
+
+		.featured-project-card {
+			flex-grow: 1;
+			max-width: 100vw;
 		}
 	}
 
