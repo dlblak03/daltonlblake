@@ -35,7 +35,7 @@
 			publisher: 'Klett Sprachen GmbH',
 			author: 'Ulrike Moritz, Margret Rodi, Lutz Rohrmann',
 			thumbnail: '/german-resources/a2_intensivtrainer.png',
-			progress: 13 / 16,
+			progress: 16 / 16,
 			status: 'active'
 		},
 		{
