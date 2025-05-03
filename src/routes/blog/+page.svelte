@@ -36,14 +36,14 @@
 			author: 'Ulrike Moritz, Margret Rodi, Lutz Rohrmann',
 			thumbnail: '/german-resources/a2_intensivtrainer.png',
 			progress: 16 / 16,
-			status: 'active'
+			status: 'inactive'
 		},
 		{
 			name: 'B1: Deutsch in Alltag und Beruf: Intensivtrainer',
 			publisher: 'Klett Sprachen GmbH',
 			author: 'Ulrike Moritz, Margret Rodi, Lutz Rohrmann',
 			thumbnail: '/german-resources/b1_intensivtrainer.png',
-			progress: 8 / 16,
+			progress: 9 / 16,
 			status: 'active'
 		},
 		{

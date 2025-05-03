@@ -8,8 +8,9 @@ const config = {
 	kit: {
 		adapter: adapter({}),
 		csp: {
+			mode: 'hash',
 			directives: {
-				'default-src': ["'self'"],
+				'default-src': ["'none'"],
 				'script-src': ["'self'", "https://kit.fontawesome.com/aabe3eec3e.js"],
 				'style-src': ["'self'", "'unsafe-inline'", "https://fonts.googleapis.com"],
 				'img-src': ["'self'", "data:", "blob:", "https://www.netlify.com"],
