@@ -481,29 +481,7 @@
 	</div>
 
 	<!-- Master of Science · Fachhochschule Südwestfalen -->
-	<div class="degree-container">
-		<div class="degree-header">
-			<div class="degree-info {$dark ? 'dark-degree-info' : ''}">
-				<h3>Fachhochschule Südwestfalen</h3>
-				<p class="degree">Master of Science in Informatics & Business</p>
-				<p class="degree">
-					{#if $language == 'EN'}
-						IT Quality Management
-					{:else if $language == 'DE'}
-						IT Quality Management
-					{/if}
-					· Hagen, {#if $language == 'EN'}
-						Germany
-					{:else if $language == 'DE'}
-						Deutschland
-					{/if}
-				</p>
-			</div>
-			<div class="degree-dates {$dark ? 'dark-degree-dates' : ''}">
-				<time datetime="2025-03">03.2025</time> - <time datetime="2026-07">07.2026</time>
-			</div>
-		</div>
-	</div>
+	
 </div>
 
 <!-- Certifications  -->
