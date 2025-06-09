@@ -177,7 +177,7 @@
 					{#if $language == 'EN'}
 						Software Developer
 					{:else if $language == 'DE'}
-						Softwareentwickler
+						Software-Entwickler
 					{/if}
 				</h3>
 				<p class="company">Software Vectors, LLC · Solingen, DE (Remote)</p>
