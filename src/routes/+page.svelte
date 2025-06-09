@@ -169,6 +169,38 @@
 		></div>
 	</div>
 
+	<!-- Software Developer · Software Vectors, LLC -->
+	<div class="job-container">
+		<div class="job-header">
+			<div class="job-info {$dark ? 'dark-job-info' : ''}">
+				<h3>
+					{#if $language == 'EN'}
+						Software Developer
+					{:else if $language == 'DE'}
+						Softwareentwickler
+					{/if}
+				</h3>
+				<p class="company">Software Vectors, LLC · Solingen, DE (Remote)</p>
+			</div>
+			<div class="job-dates {$dark ? 'dark-job-dates' : ''}">
+				<time datetime="2025-06">06.2025</time> - Present
+			</div>
+		</div>
+		<ul class={$dark ? 'dark-job-description' : ''}>
+			<li>
+				{#if $language == 'EN'}
+					Designing intuitive UI/UX and developing robust, user-centric software solutions. Responsible for the full development cycle, from interface design to backend implementation, ensuring seamless user experiences and scalable performance.
+					
+					Via Remote.com.
+				{:else if $language == 'DE'}
+					Entwurf intuitiver UI/UX und Entwicklung robuster, benutzerorientierter Softwarelösungen. Verantwortlich für den gesamten Entwicklungszyklus, vom Schnittstellendesign bis zur Backend-Implementierung, um nahtlose Benutzererlebnisse und skalierbare Leistung zu gewährleisten.
+					
+					Über Remote.com.
+				{/if}
+			</li>
+		</ul>
+	</div>
+
 	<!-- Software Engineer · Ktomek LLC -->
 	<div class="job-container">
 		<div class="job-header">
