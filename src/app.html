@@ -1,79 +1,205 @@
 <!doctype html>
 <html lang="en">
-	<head>
-		<meta charset="utf-8" />
 
-		<!-- Viewport -->
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
+<head>
+	<meta charset="utf-8" />
 
-		<!-- Favicons -->
-		<link rel="icon" href="%sveltekit.assets%/icons/favicon.ico" type="image/x-icon">
-		<link rel="apple-touch-icon" sizes="180x180" href="%sveltekit.assets%/icons/apple-touch-icon.png">
+	<!-- Viewport -->
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
 
-		<!-- Third Party Services -->
-		<script src="https://kit.fontawesome.com/aabe3eec3e.js" crossorigin="anonymous"></script>
-		<link rel="preconnect" href="https://fonts.googleapis.com">
-		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-		<link
-			href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Space+Grotesk:wght@300..700&display=swap"
-			rel="stylesheet">
-		<link
-			href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Manrope:wght@200..800&family=Space+Grotesk:wght@300..700&display=swap"
-			rel="stylesheet">
+	<!-- Favicons -->
+	<link rel="icon" href="%sveltekit.assets%/icons/favicon.ico" type="image/x-icon">
+	<link rel="apple-touch-icon" sizes="180x180" href="%sveltekit.assets%/icons/apple-touch-icon.png">
 
-		<!-- From Routes -->
-		%sveltekit.head%
+	<!-- Third Party Services -->
+	<script src="https://kit.fontawesome.com/aabe3eec3e.js" crossorigin="anonymous"></script>
 
-		<style type="text/css">
-			:root {
-				--primary: #590000;
-				--accent: #e0ac8d;
-				--light: #fcfbf4;
-				--warn: #fd665c;
-				--basic: #222;
-				--disabled: #696969;
-				--link: rgb(2 0 112 / 95.9%);
-				--darktext: #fffee0;
-				--success: #1ada24
-			}
+	<!-- From Routes -->
+	%sveltekit.head%
 
-			* {
-				transition: all 150ms
-			}
+	<style type="text/css">
+		/* space-grotesk-300 - latin */
+		@font-face {
+			font-display: swap;
+			/* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+			font-family: 'Space Grotesk';
+			font-style: normal;
+			font-weight: 300;
+			src: url('/fonts/space-grotesk-v21-latin-300.woff2') format('woff2');
+			/* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+		}
 
-			body {
-				font-family: "Manrope", sans-serif;
-				color: #050505
-			}
+		/* space-grotesk-regular - latin */
+		@font-face {
+			font-display: swap;
+			/* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+			font-family: 'Space Grotesk';
+			font-style: normal;
+			font-weight: 400;
+			src: url('/fonts/space-grotesk-v21-latin-regular.woff2') format('woff2');
+			/* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+		}
 
-			h2,
-			h4 {
-				font-size: 1.25rem
-			}
+		/* space-grotesk-500 - latin */
+		@font-face {
+			font-display: swap;
+			/* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+			font-family: 'Space Grotesk';
+			font-style: normal;
+			font-weight: 500;
+			src: url('/fonts/space-grotesk-v21-latin-500.woff2') format('woff2');
+			/* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+		}
 
-			h2,
-			h3 {
-				font-family: "Space Grotesk", sans-serif
-			}
+		/* space-grotesk-600 - latin */
+		@font-face {
+			font-display: swap;
+			/* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+			font-family: 'Space Grotesk';
+			font-style: normal;
+			font-weight: 600;
+			src: url('/fonts/space-grotesk-v21-latin-600.woff2') format('woff2');
+			/* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+		}
 
-			h2 {
-				margin-bottom: 5px
-			}
+		/* space-grotesk-700 - latin */
+		@font-face {
+			font-display: swap;
+			/* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+			font-family: 'Space Grotesk';
+			font-style: normal;
+			font-weight: 700;
+			src: url('/fonts/space-grotesk-v21-latin-700.woff2') format('woff2');
+			/* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+		}
 
-			h3 {
-				font-size: 1.75rem;
-				font-weight: 700;
-				margin: 5px 0 0
-			}
+		/* manrope-200 - latin */
+		@font-face {
+			font-display: swap;
+			/* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+			font-family: 'Manrope';
+			font-style: normal;
+			font-weight: 200;
+			src: url('/fonts/manrope-v19-latin-200.woff2') format('woff2');
+			/* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+		}
 
-			h4 {
-				font-weight: 300;
-				margin: 0
-			}
-		</style>
-	</head>
+		/* manrope-300 - latin */
+		@font-face {
+			font-display: swap;
+			/* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+			font-family: 'Manrope';
+			font-style: normal;
+			font-weight: 300;
+			src: url('/fonts/manrope-v19-latin-300.woff2') format('woff2');
+			/* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+		}
 
-	<body data-sveltekit-preload-data="hover" style="margin: 0;overflow-y: auto;">
-		<div>%sveltekit.body%</div>
-	</body>
+		/* manrope-regular - latin */
+		@font-face {
+			font-display: swap;
+			/* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+			font-family: 'Manrope';
+			font-style: normal;
+			font-weight: 400;
+			src: url('/fonts/manrope-v19-latin-regular.woff2') format('woff2');
+			/* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+		}
+
+		/* manrope-500 - latin */
+		@font-face {
+			font-display: swap;
+			/* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+			font-family: 'Manrope';
+			font-style: normal;
+			font-weight: 500;
+			src: url('/fonts/manrope-v19-latin-500.woff2') format('woff2');
+			/* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+		}
+
+		/* manrope-600 - latin */
+		@font-face {
+			font-display: swap;
+			/* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+			font-family: 'Manrope';
+			font-style: normal;
+			font-weight: 600;
+			src: url('/fonts/manrope-v19-latin-600.woff2') format('woff2');
+			/* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+		}
+
+		/* manrope-700 - latin */
+		@font-face {
+			font-display: swap;
+			/* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+			font-family: 'Manrope';
+			font-style: normal;
+			font-weight: 700;
+			src: url('/fonts/manrope-v19-latin-700.woff2') format('woff2');
+			/* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+		}
+
+		/* manrope-800 - latin */
+		@font-face {
+			font-display: swap;
+			/* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+			font-family: 'Manrope';
+			font-style: normal;
+			font-weight: 800;
+			src: url('/fonts/manrope-v19-latin-800.woff2') format('woff2');
+			/* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+		}
+
+		:root {
+			--primary: #590000;
+			--accent: #e0ac8d;
+			--light: #fcfbf4;
+			--warn: #fd665c;
+			--basic: #222;
+			--disabled: #696969;
+			--link: rgb(2 0 112 / 95.9%);
+			--darktext: #fffee0;
+			--success: #1ada24
+		}
+
+		* {
+			transition: all 150ms
+		}
+
+		body {
+			font-family: "Manrope", sans-serif;
+			color: #050505
+		}
+
+		h2,
+		h4 {
+			font-size: 1.25rem
+		}
+
+		h2,
+		h3 {
+			font-family: "Space Grotesk", sans-serif
+		}
+
+		h2 {
+			margin-bottom: 5px
+		}
+
+		h3 {
+			font-size: 1.75rem;
+			font-weight: 700;
+			margin: 5px 0 0
+		}
+
+		h4 {
+			font-weight: 300;
+			margin: 0
+		}
+	</style>
+</head>
+
+<body data-sveltekit-preload-data="hover" style="margin: 0;overflow-y: auto;">
+	<div>%sveltekit.body%</div>
+</body>
+
 </html>
